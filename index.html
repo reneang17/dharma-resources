@@ -3,14 +3,20 @@
 
 <head>
     <title>My Static Site</title>
+    <script src="js/tools.js"></script>
+    <style>
+        #randomPageLink {
+            display: none;
+            /* Initially hide the link */
+        }
+    </style>
 </head>
 
 <body>
     <h1>Welcome to My Site</h1>
-    <p>Click <a
-            href="https://reneang17.github.io/dharma-resources/dhammapada-for-contemplation-5th-LARGE-WEB-2017-02-05.pdf#page=5"
-            target="_blank">here</a> to
-        open the PDF at page 5.</p>
+    <p>Click the button to generate a link to a random page of the PDF:</p>
+    <button onclick="generateRandomLink()">Generate Link</button>
+    <p><a id="randomPageLink" href="#" target="_blank">Random page link will appear here</a></p>
 </body>
 
 </html>
