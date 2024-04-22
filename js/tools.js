@@ -12,6 +12,6 @@ function generateRandomLink() {
     // Update the href attribute of the link and modify the link text
     const link = document.getElementById('randomPageLink');
     link.href = url;
-    link.textContent = `Link to page ${randomPage}`;
+    link.textContent = `Link to page ${(randomPage - 21)}`;
     link.style.display = 'inline'; // Make the link visible
 }
