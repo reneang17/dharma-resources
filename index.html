@@ -17,6 +17,13 @@
     <p>Click the button to generate a link to a random page of the PDF:</p>
     <button onclick="generateRandomLink()">Generate Link</button>
     <p><a id="randomPageLink" href="#" target="_blank">Random page link will appear here</a></p>
+
+
+    <label for="verseNumber">Study verse:</label>
+    <input type="number" id="verseNumber" min="1" max="423" required>
+    <button onclick="fetchVerseDetails()">Enter</button>
+
+    <div id="verseDetails"></div>
 </body>
 
 </html>
