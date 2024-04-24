@@ -50,9 +50,9 @@ function displayVerseDetails(verse) {
     const detailsContainer = document.getElementById('verseDetails');
     detailsContainer.innerHTML = `
         <p>${verse.utter}</p>
-        <p>The historical context of this verse can be found in:</p>
+        <p>The historical context of this verse is provided by tipitaka.net at:</p>
         <ul>${verse.context.map(url => `<li><a href="${url}" target="_blank">${url}</a></li>`).join('')}</ul>
-        <p>You can find Ajahn Munindo's commentaries at:</p>
+        <p>Available Ajahn Munindo's reflexions on this verse:</p>
         <ul>${verse.refs.map((ref, index) =>
         `<li><a href="${verse.urls[index]}" target="_blank">${ref}</a></li>`).join('')}
         </ul>
