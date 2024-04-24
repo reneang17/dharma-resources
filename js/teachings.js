@@ -33,7 +33,7 @@ async function generateRandomMaitriLink() {
         const randomIndex = Math.floor(Math.random() * links.length);
         const randomLink = links[randomIndex].maitri;
 
-        const linkContainer = document.getElementById('linkContainer');
+        const linkContainer = document.getElementById('linkMaitri');
         linkContainer.innerHTML = '';  // Clear previous links if any
 
         const linkElement = document.createElement('a');
