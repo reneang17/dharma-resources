@@ -130,6 +130,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+
+
+
 var pdfDoc = null,
     pageNum = 1,
     pageRendering = false,
@@ -191,6 +194,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var url = './path/to/your-pdf-file.pdf';  // Update the URL to the path where your PDF is hosted
     pdfjsLib.getDocument(url).promise.then(function (pdfDoc_) {
         pdfDoc = pdfDoc_;
-        renderPage(pageNum);
+        renderPage(pageNum); // Renders the first page as pageNum is set to 1.
     });
 });
