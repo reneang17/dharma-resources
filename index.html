@@ -13,6 +13,25 @@
             /* Initially hide the link */
         }
     </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js';
+    </script>
+    <style>
+        #canvas-container {
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+        }
+
+        canvas {
+            border: 1px solid black;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -34,6 +53,33 @@
     <div id="verseDetails"></div>
 
     <!--   <a href="teachings.html">Further study Dhammapada with Dorjé Lopön Dr. Hun Lye</a> -->
+
+
+    <button onclick="openPDF()">Load PDF at Specific Page</button>
+    <div id="canvas-container">
+        <canvas id="pdf-canvas"></canvas>
+    </div>
+
+    <script>
+        async function openPDF() {
+            // Update the URL to the path where your PDF is hosted on GitHub Pages
+            const url = './ajahn_munindo_books/dhammapada-for-contemplation-5th-LARGE-WEB-2017-02-05.pdf'; // Adjust according to your repository structure
+            const pdf = await pdfjsLib.getDocument(url).promise;
+            const pageNum = 3; // Specify the page number you want to load
+            const page = await pdf.getPage(pageNum);
+            const canvas = document.getElementById('pdf-canvas');
+            const ctx = canvas.getContext('2d');
+            const viewport = page.getViewport({ scale: 1.5 });
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+            const renderContext = {
+                canvasContext: ctx,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        }
+    </script>
+
 
 </body>
 
