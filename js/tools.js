@@ -58,3 +58,139 @@ function displayVerseDetails(verse) {
         </ul>
     `;
 }
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    canvas = document.getElementById('pdf-canvas'),
+    ctx = canvas.getContext('2d');
+
+async function renderPage(num) {
+    pageRendering = true;
+    pdfDoc.getPage(num).then(function (page) {
+        var viewport = page.getViewport({ scale: 1.5 });
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        var renderContext = {
+            canvasContext: ctx,
+            viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        renderTask.promise.then(function () {
+            pageRendering = false;
+            document.getElementById('page-num').value = num;  // Update current page in text field
+        });
+    });
+}
+
+function onPrevPage() {
+    if (pageNum <= 1) {
+        return;
+    }
+    pageNum--;
+    renderPage(pageNum);
+}
+
+function onNextPage() {
+    if (pageNum >= pdfDoc.numPages) {
+        return;
+    }
+    pageNum++;
+    renderPage(pageNum);
+}
+
+function gotoPage() {
+    var pageNumber = parseInt(document.getElementById('page-num').value);
+    if (pageNumber > 0 && pageNumber <= pdfDoc.numPages) {
+        pageNum = pageNumber;
+        renderPage(pageNum);
+    }
+}
+
+function downloadPDF() {
+    var link = document.createElement('a');
+    link.href = './path/to/your-pdf-file.pdf';  // Update the URL to the path where your PDF is hosted
+    link.download = 'downloaded-file.pdf';
+    link.click();
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    var url = './path/to/your-pdf-file.pdf';  // Update the URL to the path where your PDF is hosted
+    pdfjsLib.getDocument(url).promise.then(function (pdfDoc_) {
+        pdfDoc = pdfDoc_;
+        renderPage(pageNum);
+    });
+});
+
+
+
+
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    canvas = document.getElementById('pdf-canvas'),
+    ctx = canvas.getContext('2d');
+
+async function renderPage(num) {
+    pageRendering = true;
+    pdfDoc.getPage(num).then(function (page) {
+        var viewport = page.getViewport({ scale: 1.5 });
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        var renderContext = {
+            canvasContext: ctx,
+            viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        renderTask.promise.then(function () {
+            pageRendering = false;
+            document.getElementById('page-num').value = num;  // Update current page in text field
+        });
+    });
+}
+
+function onPrevPage() {
+    if (pageNum <= 1) {
+        return;
+    }
+    pageNum--;
+    renderPage(pageNum);
+}
+
+function onNextPage() {
+    if (pageNum >= pdfDoc.numPages) {
+        return;
+    }
+    pageNum++;
+    renderPage(pageNum);
+}
+
+function gotoPage() {
+    var pageNumber = parseInt(document.getElementById('page-num').value);
+    if (pageNumber > 0 && pageNumber <= pdfDoc.numPages) {
+        pageNum = pageNumber;
+        renderPage(pageNum);
+    }
+}
+
+function downloadPDF() {
+    var link = document.createElement('a');
+    link.href = './path/to/your-pdf-file.pdf';  // Update the URL to the path where your PDF is hosted
+    link.download = 'downloaded-file.pdf';
+    link.click();
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    var url = './path/to/your-pdf-file.pdf';  // Update the URL to the path where your PDF is hosted
+    pdfjsLib.getDocument(url).promise.then(function (pdfDoc_) {
+        pdfDoc = pdfDoc_;
+        renderPage(pageNum);
+    });
+});

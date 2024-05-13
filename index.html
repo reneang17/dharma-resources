@@ -57,46 +57,19 @@
     <!--   <a href="teachings.html">Further study Dhammapada with Dorjé Lopön Dr. Hun Lye</a> -->
 
 
-    <button onclick="openPDF()">Load PDF at Specific Page</button>
     <div id="canvas-container">
         <canvas id="pdf-canvas"></canvas>
     </div>
-
-    <script>
-        function getDevicePixelRatio() {
-            var mediaQuery;
-            var fallbackRatio = 2; // Fallback for browsers that do not support matchMedia
-            if (window.matchMedia) {
-                mediaQuery = "(min-resolution: .001dpcm)"; // dpcm test to avoid false positives on unsupported browsers
-                if (window.matchMedia(mediaQuery).matches) {
-                    return window.devicePixelRatio || fallbackRatio;
-                }
-            }
-            return fallbackRatio;
-        }
-
-        async function openPDF() {
-            const url = './ajahn_munindo_books/dhammapada-for-contemplation-5th-LARGE-WEB-2017-02-05.pdf'; // Update the URL to the path where your PDF is hosted
-            const pdf = await pdfjsLib.getDocument(url).promise;
-            const pageNum = 3; // Specify the page number you want to load
-            const page = await pdf.getPage(pageNum);
-            const canvas = document.getElementById('pdf-canvas');
-            const ctx = canvas.getContext('2d');
-            const scale = 2; // Increase scale to enhance clarity
-            const viewport = page.getViewport({ scale: scale });
-            const devicePixelRatio = getDevicePixelRatio();
-            canvas.width = viewport.width * devicePixelRatio;
-            canvas.height = viewport.height * devicePixelRatio;
-            canvas.style.width = viewport.width + 'px';
-            canvas.style.height = viewport.height + 'px';
-            ctx.scale(devicePixelRatio, devicePixelRatio);
-            const renderContext = {
-                canvasContext: ctx,
-                viewport: viewport
-            };
-            page.render(renderContext);
-        }
-    </script>
+    <div id="navigation-controls">
+        <button onclick="onPrevPage()">Previous Page</button>
+        <button onclick="onNextPage()">Next Page</button>
+        <button onclick="downloadPDF()">Download PDF</button>
+    </div>
+    <div id="page-controls">
+        <label for="page-num">Go to page:</label>
+        <input type="number" id="page-num" value="1">
+        <button onclick="gotoPage()">Go</button>
+    </div>
 
 
 </body>
