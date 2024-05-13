@@ -70,6 +70,23 @@
         <input type="number" id="page-num" value="1">
         <button onclick="gotoPage()">Go</button>
 
+
+        <div id="canvas-container">
+            <canvas id="pdf-canvas"></canvas>
+        </div>
+        <div id="navigation-controls">
+            <button onclick="onPrevPage()">Previous Page</button>
+            <button onclick="onNextPage()">Next Page</button>
+            <button onclick="downloadPDF()">Download PDF</button>
+        </div>
+        <div id="page-controls">
+            <label for="page-num">Go to page:</label>
+            <input type="number" id="page-num" value="1">
+            <button onclick="gotoPage()">Go</button>
+        </div>
+
+
+
 </body>
 
 </html>
