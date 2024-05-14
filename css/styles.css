@@ -34,12 +34,10 @@ header {
 #pdf-viewer-container {
     width: 90vw;
     /* Limits the width to 90% of the viewport width */
-    max-width: calc(100vw < 8in ? 100vw : 8in);
-    /* Conditional max-width */
-    aspect-ratio: calc(612 / 792);
-    /* Maintain the aspect ratio based on typical PDF page size, adjust as needed */
-    overflow: hidden;
-    /* Hide any overflowing content */
+    max-width: 8in;
+    /* Keeps the maximum width at 8 inches */
+    height: auto;
+    /* Adjust height dynamically based on content */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,9 +49,13 @@ header {
 }
 
 canvas {
-    max-width: 100%;
+    width: 100%;
+    /* Ensure it fills its container */
+    height: auto;
+    /* Adjust height to maintain aspect ratio based on width */
     border: 1px solid black;
 }
+
 
 #navigation-controls {
     position: sticky;
