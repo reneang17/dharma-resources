@@ -7,32 +7,14 @@
     <title>Dhammapada resources</title>
     <script src="js/tools.js"></script>
     <link rel="stylesheet" href="./css/styles.css">
-    <style>
-        #randomPageLink {
-            display: none;
-            /* Initially hide the link */
-        }
-    </style>
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
     <script>
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js';
     </script>
-    <style>
-        #canvas-container {
-            width: 100%;
-            overflow: auto;
-        }
 
-        canvas {
-            width: 100%;
-            /* Ensures that canvas is responsive but maintains aspect ratio */
-            height: auto;
-            display: block;
-            /* Removes extra space below canvas */
-            border: 1px solid black;
-        }
-    </style>
 
 </head>
 
@@ -70,6 +52,8 @@
         <input type="number" id="page-num" value="1">
         <button onclick="gotoPage()">Go</button>
     </div>
+
+    <script src="./tools/pdf.js"></script>
 
 </body>
 

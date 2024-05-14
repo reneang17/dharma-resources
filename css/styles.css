@@ -20,3 +20,23 @@ header {
     height: auto;
     /* Maintains aspect ratio */
 }
+
+
+#randomPageLink {
+    display: none;
+    /* Initially hide the link */
+}
+
+#canvas-container {
+    width: 100%;
+    overflow: auto;
+}
+
+canvas {
+    width: 100%;
+    /* Ensures that canvas is responsive but maintains aspect ratio */
+    height: auto;
+    display: block;
+    /* Removes extra space below canvas */
+    border: 1px solid black;
+}
