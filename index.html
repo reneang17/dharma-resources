@@ -5,41 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dhammapada resources</title>
-    <script src="js/tools.js"></script>
     <link rel="stylesheet" href="./css/styles.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
     <script>
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js';
     </script>
-    <script src="./js/PDFViewer.js"></script>
-
-
 </head>
 
 <body>
-
     <div>
         <header>
             <img src="assets/pexels-soumenmaity-634770.jpg" alt="" id="headerImage">
         </header>
     </div>
 
-
     <div>
         <h1>Study the Dhammapada</h1>
-
-
-
-
+        <p>Click to get a link to a random page of Ajahn Munindo's Dhammapada for Contemplation:</p>
+        <button onclick="generateRandomLink()">Generate Link</button>
+        <p><a id="randomPageLink" href="#" target="_blank"></a></p>
 
         <label for="verseNumber">Type the verse number (1 to 423) you would like to study:</label>
-        <input type="number" id="verseNumber" value="1" min="1" max="423" size="3">
+        <input type="number" id="verseNumber" min="1" max="423" required>
         <button onclick="fetchVerseDetails()">Enter</button>
 
         <div id="verseDetails"></div>
     </div>
-    </div>
+
     <!--   <a href="teachings.html">Further study Dhammapada with Dorjé Lopön Dr. Hun Lye</a> -->
 
     <div id="pdf-viewer-container">
@@ -73,6 +65,11 @@
             mainViewer.setupEventListeners();
         });
     </script>
+
+    <!-- Scripts at the end of the body for better loading performance -->
+    <script src="js/tools.js"></script>
+    <script src="js/PDFViewer.js"></script> <!-- If still needed for other PDF viewing instances -->
+    <script src="js/CommentsViewer.js"></script>
 
 
 </body>

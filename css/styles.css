@@ -69,3 +69,48 @@ canvas {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* Subtle shadow for depth */
 }
+
+/* CSS for dynamically generated PDF viewers in comments */
+.pdf-viewer-comments-container {
+    width: 100%;
+    /* Adjusts to the content within up to the maximum width */
+    max-width: 8in;
+    /* Maximum width is 8 inches */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+    margin: 2px auto;
+    /* Center the container on the page */
+    padding: 2px;
+    /* Padding around the container */
+    box-sizing: border-box;
+    /* Includes padding and border in the width */
+}
+
+.pdf-viewer-comments-container canvas {
+    width: 100%;
+    /* Canvas takes full width of its container */
+    max-width: 100%;
+    /* Ensures canvas is not wider than the container */
+    height: auto;
+    /* Height adjusts automatically to maintain aspect ratio */
+    border: 1px solid black;
+    /* Border around the canvas */
+    box-sizing: border-box;
+    /* Ensures border is included in the width calculation */
+}
+
+.navigation-controls {
+    width: 100%;
+    /* Controls match the width of the container */
+    display: flex;
+    justify-content: center;
+    padding: 2px 0;
+    margin-bottom: 2px;
+    /* Space between the controls and the PDF */
+    background: #f9f9f9;
+    /* Light background for controls */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}

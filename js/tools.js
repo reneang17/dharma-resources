@@ -1,20 +1,3 @@
-function generateRandomLink() {
-    // Define the range of pages
-    const minPage = 21;
-    const maxPage = 172;
-
-    // Generate a random page number within the range
-    const randomPage = Math.floor(Math.random() * (maxPage - minPage + 1)) + minPage;
-
-    // Construct the URL with the random page
-    const url = `./ajahn_munindo_books/dhammapada-for-contemplation-5th-LARGE-WEB-2017-02-05.pdf#page=${randomPage}`;
-
-    // Update the href attribute of the link and modify the link text
-    const link = document.getElementById('randomPageLink');
-    link.href = url;
-    link.textContent = `Link to page ${(randomPage - 18)}`;
-    link.style.display = 'inline'; // Make the link visible
-}
 
 async function fetchVerseDetails() {
     const verseInput = document.getElementById('verseNumber');
@@ -46,17 +29,34 @@ function displayVerseDetails(verse) {
     }
 
     const detailsContainer = document.getElementById('verseDetails');
-    detailsContainer.innerHTML = `
+    let htmlContent = `
         <p>${verse.utter}</p>
         <p>The historical context of this verse is provided by tipitaka.net at:</p>
         <ul>${verse.context.map(url => `<li><a href="${url}" target="_blank">${url}</a></li>`).join('')}</ul>
-        <p>Available Ajahn Munindo's reflexions on this verse:</p>
-        <ul>${verse.refs.map((ref, index) =>
-        `<li><a href="${verse.urls[index]}" target="_blank">${ref}</a></li>`).join('')}
-        </ul>
+        <p>Available Ajahn Munindo's reflections on this verse:</p>
+        <ul>
     `;
+
+    verse.refs.forEach((ref, index) => {
+        const url = verse.urls[index];
+        const viewerId = `pdf-viewer-${index}`;
+        if (url.includes('.pdf')) {
+            htmlContent += `<li><button onclick="loadPDF('${url}', '${viewerId}')">${ref}</button><div id="${viewerId}" class="pdf-viewer-container"></div></li>`;
+        } else {
+            htmlContent += `<li><a href="${url}" target="_blank">${ref}</a></li>`;
+        }
+    });
+
+    htmlContent += `</ul>`;
+    detailsContainer.innerHTML = htmlContent;
 }
 
+// Function to instantiate and load a PDF viewer
+function loadPDF(url, containerId) {
+    const pageMatch = url.match(/#page=(\d+)/);
+    const pageNum = pageMatch ? pageMatch[1] : 1;
+    new CommentsViewer(containerId, url, pageNum).init();
+}
 
 
 
