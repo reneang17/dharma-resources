@@ -5,71 +5,61 @@
     padding: 0;
 }
 
-body,
-html {
+html,
+body {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    /* Ensure text is rendered consistently across browsers */
+}
+
+div {
+    width: 100%;
+    /* Ensures that each div uses the full available width */
 }
 
 header {
+    display: block;
     width: 100%;
 }
 
 #headerImage {
     width: 100%;
     height: auto;
-    /* Maintains aspect ratio */
-}
-
-div {
-    margin: 20px;
-    /* Provides space between sections */
 }
 
 #randomPageLink {
     display: none;
-    /* Initially hide the link */
 }
 
 #pdf-viewer-container {
-    width: 100%;
+    clear: both;
+    /* Clears the float, ensuring no float elements are to its left or right */
+    width: calc(100% - 40px);
+    /* Adjust width considering padding */
     max-width: 7in;
-    /* Limit width to not exceed 7 inches */
     aspect-ratio: calc(612 / 792);
-    /* Set aspect ratio based on typical PDF page size (adjust as needed) */
     overflow: hidden;
-    /* Prevents scroll bars within the PDF viewer itself */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Centers children horizontally */
-    margin: auto;
-    /* Center container on page */
+    margin: 20px auto;
+    /* Centers the container horizontally with margin */
+    padding: 20px;
+    /* Padding to prevent content from touching the edges */
 }
 
 canvas {
     max-width: 100%;
-    /* Canvas should not exceed the width of its container */
     border: 1px solid black;
-    /* Visual border for the canvas */
 }
 
 #navigation-controls {
     position: sticky;
-    /* Makes navigation controls stick to the bottom or top */
     bottom: 0;
-    /* Positions the controls at the bottom of the viewport */
     background: white;
-    /* Adds a background color to ensure visibility on scrolling */
     display: flex;
     justify-content: center;
-    /* Centers the buttons horizontally */
     padding: 10px 0;
-    /* Adds some padding around the buttons for spacing */
     width: 100%;
-    /* Ensure full width */
     box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1);
-    /* Adds a subtle shadow for better visibility */
 }
