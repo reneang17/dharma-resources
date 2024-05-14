@@ -11,19 +11,13 @@ class PDFViewer {
     async renderPage(num) {
         this.pageRendering = true;
         const page = await this.pdfDoc.getPage(num);
-
-        // Dynamically calculate the scale based on the maximum height of 672 pixels (7 inches)
-        const screenHeight = 672; // Maximum height in pixels
         const viewport = page.getViewport({ scale: 1 });
-        const scale = screenHeight / viewport.height;
-        const scaledViewport = page.getViewport({ scale: scale });
-
-        this.canvas.height = scaledViewport.height;
-        this.canvas.width = scaledViewport.width;
+        this.canvas.height = viewport.height;
+        this.canvas.width = viewport.width;
 
         const renderContext = {
             canvasContext: this.ctx,
-            viewport: scaledViewport
+            viewport: viewport
         };
 
         await page.render(renderContext).promise;
