@@ -19,16 +19,8 @@
         </header>
     </div>
 
-    <div>
-        <h1>Study the Dhammapada</h1>
+    <h1>Study the Dhammapada</h1>
 
-
-        <label for="verseNumber">Type the verse number (1 to 423) you would like to study:</label>
-        <input type="number" id="verseNumber" min="1" max="423" required>
-        <button onclick="fetchVerseDetails()">Enter</button>
-
-        <div id="verseDetails"></div>
-    </div>
 
     <!--   <a href="teachings.html">Further study Dhammapada with Dorjé Lopön Dr. Hun Lye</a> -->
 
@@ -64,10 +56,21 @@
         });
     </script>
 
+
+    <div>
+
+        <label for="verseNumber">Type the verse number (1 to 423) you would like to study:</label>
+        <input type="number" id="verseNumber" min="1" max="423" required>
+        <button onclick="fetchVerseDetails()">Enter</button>
+
+        <div id="verseDetails"></div>
+    </div>
+
     <!-- Scripts at the end of the body for better loading performance -->
     <script src="js/PDFViewer.js"></script> <!-- If still needed for other PDF viewing instances -->
     <script src="js/CommentsViewer.js"></script>
     <script src="js/tools.js"></script>
+
 
 
 </body>
