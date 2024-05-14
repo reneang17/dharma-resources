@@ -32,9 +32,9 @@ header {
 }
 
 #pdf-viewer-container {
-    width: 95vw;
+    width: 90vw;
     /* Limits the width to 90% of the viewport width */
-    max-width: 6in;
+    max-width: 8in;
     /* Keeps the maximum width at 8 inches */
     height: auto;
     /* Adjust height dynamically based on content */
@@ -52,7 +52,6 @@ canvas {
     width: 100%;
     /* Ensure it fills its container */
     height: auto;
-    max-height: 7in;
     /* Adjust height to maintain aspect ratio based on width */
     border: 1px solid black;
 }
