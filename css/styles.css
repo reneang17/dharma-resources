@@ -49,10 +49,10 @@ header {
 }
 
 canvas {
-    width: auto;
-    /* Adjust width to maintain aspect ratio */
-    max-height: 7in;
-    /* Maximum height */
+    width: 100%;
+    max-width: none; // Make sure canvas is not being constrained or stretched
+    height: auto;
+    max-height: none;
     border: 1px solid black;
 }
 
