@@ -21,43 +21,39 @@ header {
     /* Maintains aspect ratio */
 }
 
-
 #randomPageLink {
     display: none;
     /* Initially hide the link */
 }
 
 #pdf-viewer-container {
-    width: 100%;
-    /* Ensures the container takes the full width of its parent */
+    width: 90%;
+    /* Responsive width */
     max-height: 7in;
-    /* Maximum height for the PDF display */
     overflow: auto;
-    /* Adds scrollbars when content overflows */
+    margin: 20px auto;
+    /* Center the container */
     display: flex;
-    /* Ensures the container and its children (canvas, buttons) are aligned properly */
     flex-direction: column;
-    /* Stacks children vertically */
     align-items: center;
-    /* Centers children horizontally */
-    margin: 20px 0;
-    /* Adds some space above and below the container */
 }
 
 canvas {
-    max-width: 100%;
-    /* Canvas should not exceed the width of its container */
-    max-height: 100%;
-    /* Limits the height of the canvas to the container's size */
-    border: 1px solid black;
-    /* Visual border for the canvas */
+    width: 100%;
+    /* Full width of the container */
+    max-height: 7in;
+    /* Max height, but does not force the canvas to be 7in tall */
 }
 
 #navigation-controls {
     display: flex;
-    /* Aligns navigation buttons in a row */
     justify-content: center;
-    /* Centers the buttons horizontally */
     padding: 10px 0;
-    /* Adds some padding around the buttons for spacing */
+}
+
+@media (max-width: 768px) {
+    #pdf-viewer-container {
+        width: 100%;
+        /* Full width on smaller screens */
+    }
 }
