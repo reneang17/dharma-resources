@@ -34,10 +34,12 @@ header {
 #pdf-viewer-container {
     width: 90vw;
     /* Limits the width to 90% of the viewport width */
-    max-width: 1in;
+    max-width: 6in;
     /* Keeps the maximum width at 8 inches */
-    height: auto;
-    /* Adjust height dynamically based on content */
+    aspect-ratio: calc(612 / 792);
+    /* Maintain the aspect ratio based on typical PDF page size, adjust as needed */
+    overflow: hidden;
+    /* Hide any overflowing content */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +49,7 @@ header {
     padding: 20px;
     /* Padding to prevent content from touching the container edges */
 }
+
 
 canvas {
     width: 100%;
