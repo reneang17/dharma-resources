@@ -34,7 +34,7 @@ header {
 #pdf-viewer-container {
     width: 90vw;
     /* Limits the width to 90% of the viewport width */
-    max-width: 7in;
+    /*max-width: 7in;*/
     /* Keeps the maximum width at 7 inches */
     aspect-ratio: calc(612 / 792);
     overflow: hidden;
