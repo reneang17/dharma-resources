@@ -6,17 +6,21 @@ class PDFViewer {
         this.pdfDoc = null;
         this.pageNum = 1;
         this.pageRendering = false;
+        this.minPageNum = controls.minPage || 1;
+        this.maxPageNum = controls.maxPage || 164;
+        this.randomMin = controls.randomMin || 21;  // Default minimum random page
+        this.randomMax = controls.randomMax || 154; // Default maximum random page
     }
 
     async renderPage(num) {
         this.pageRendering = true;
+        num = Math.max(this.minPageNum, Math.min(num, this.maxPageNum));  // Ensure num is within allowed range
         const page = await this.pdfDoc.getPage(num);
-        const scale = 5;  // Increase further if needed
+        const scale = 5;
         const viewport = page.getViewport({ scale: scale });
 
-        // Directly match canvas dimensions to the viewport to avoid CSS scaling issues
-        this.canvas.style.width = '100%';  // Ensures that CSS does not stretch the canvas
-        this.canvas.style.height = 'auto';  // Keeps the height proportional
+        this.canvas.style.width = '100%';
+        this.canvas.style.height = 'auto';
         this.canvas.width = viewport.width;
         this.canvas.height = viewport.height;
 
@@ -38,14 +42,21 @@ class PDFViewer {
     }
 
     setupEventListeners() {
+        document.getElementById(this.controls.randomPage).addEventListener('click', () => this.onRandomPage());
         document.getElementById(this.controls.prevPage).addEventListener('click', () => this.onPrevPage());
         document.getElementById(this.controls.nextPage).addEventListener('click', () => this.onNextPage());
         document.getElementById(this.controls.goPage).addEventListener('click', () => this.gotoPage());
         document.getElementById(this.controls.downloadPDF).addEventListener('click', () => this.downloadPDF());
     }
 
+    onRandomPage() {
+        const randomNumber = Math.floor(Math.random() * (this.randomMax - this.randomMin + 1)) + this.randomMin;
+        this.pageNum = randomNumber;  // Update the current page number
+        this.renderPage(randomNumber);
+    }
+
     onPrevPage() {
-        if (this.pageNum <= 1) {
+        if (this.pageNum <= this.minPageNum) {
             return;
         }
         this.pageNum--;
@@ -53,7 +64,7 @@ class PDFViewer {
     }
 
     onNextPage() {
-        if (this.pageNum >= this.pdfDoc.numPages) {
+        if (this.pageNum >= this.pdfDoc.numPages || this.pageNum >= this.maxPageNum) {
             return;
         }
         this.pageNum++;
@@ -62,16 +73,14 @@ class PDFViewer {
 
     gotoPage() {
         const pageNumber = parseInt(document.getElementById(this.controls.pageNum).value);
-        if (pageNumber > 0 && pageNumber <= this.pdfDoc.numPages) {
+        if (pageNumber >= this.minPageNum && pageNumber <= Math.min(this.maxPageNum, this.pdfDoc.numPages)) {
             this.pageNum = pageNumber;
             this.renderPage(this.pageNum);
         }
     }
 
     downloadPDF() {
-        const link = document.createElement('a');
-        link.href = this.controls.pdfUrl;  // Link to PDF
-        link.download = 'downloaded-file.pdf';  // Download filename
-        link.click();
+        const url = this.controls.pdfUrl + '#page=' + this.pageNum;
+        window.open(url, '_blank');
     }
 }

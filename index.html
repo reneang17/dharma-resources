@@ -30,13 +30,11 @@
         <h1>Study the Dhammapada</h1>
 
 
-        <p>Click to get a link to a random page of Ajahn Munindo's Dhammapada for Contemplation:</p>
-        <button onclick="generateRandomLink()">Generate Link</button>
-        <p><a id="randomPageLink" href="#" target="_blank"></a></p>
+
 
 
         <label for="verseNumber">Type the verse number (1 to 423) you would like to study:</label>
-        <input type="number" id="verseNumber" min="1" max="423" required>
+        <input type="number" id="verseNumber" value="1" min="1" max="423" size="3">
         <button onclick="fetchVerseDetails()">Enter</button>
 
         <div id="verseDetails"></div>
@@ -46,11 +44,12 @@
 
     <div id="pdf-viewer-container">
         <div id="navigation-controls">
-            <button id="prev-page">Previous Page</button>
+            <button id="random-page">Random</button>
+            <button id="prev-page">Prev Page</button>
             <button id="next-page">Next Page</button>
-            <input type="number" id="page-num" value="1">
+            <input type="number" id="page-num" value="1" min="1" max="164" size="3">
             <button id="go-page">Go</button>
-            <button id="download-pdf">Download PDF</button>
+            <button id="download-pdf">Open in new Tab</button>
         </div>
         <canvas id="pdf-canvas"></canvas>
     </div>
@@ -60,15 +59,21 @@
             const mainViewer = new PDFViewer('pdf-canvas', {
                 prevPage: 'prev-page',
                 nextPage: 'next-page',
+                randomPage: 'random-page',  // Include the ID of the new button
                 pageNum: 'page-num',
                 goPage: 'go-page',
                 downloadPDF: 'download-pdf',
-                pdfUrl: './ajahn_munindo_books/dhammapada-for-contemplation-5th-LARGE-WEB-2017-02-05.pdf'
+                pdfUrl: './ajahn_munindo_books/dhammapada-for-contemplation-5th-LARGE-WEB-2017-02-05.pdf',
+                minPage: 1,
+                maxPage: 164,
+                randomMin: 21,
+                randomMax: 154
             });
             mainViewer.loadDocument(mainViewer.controls.pdfUrl);
             mainViewer.setupEventListeners();
         });
     </script>
+
 
 </body>
 
