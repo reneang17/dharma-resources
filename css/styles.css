@@ -34,7 +34,7 @@ header {
 #pdf-viewer-container {
     width: 100vw;
     /* Limits the width to 90% of the viewport width */
-    max-width: 7in;
+    max-width: 6in;
     /* Keeps the maximum width at 8 inches */
     height: auto;
     /* Adjust height dynamically based on content */

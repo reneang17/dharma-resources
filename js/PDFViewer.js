@@ -11,7 +11,7 @@ class PDFViewer {
     async renderPage(num) {
         this.pageRendering = true;
         const page = await this.pdfDoc.getPage(num);
-        const scale = 2;  // Increase further if needed
+        const scale = 3;  // Increase further if needed
         const viewport = page.getViewport({ scale: scale });
 
         // Directly match canvas dimensions to the viewport to avoid CSS scaling issues
