@@ -1,3 +1,4 @@
+/* CSS - styles.css */
 * {
     box-sizing: border-box;
 }
@@ -21,7 +22,6 @@ header {
     /* Maintains aspect ratio */
 }
 
-
 #randomPageLink {
     display: none;
     /* Initially hide the link */
@@ -30,14 +30,16 @@ header {
 #pdf-viewer-container {
     width: 100%;
     /* Ensures the container takes the full width of its parent */
-    max-height: 7in;
-    /* Maximum height for the PDF display */
+    max-width: 7in;
+    /* Limit width to not exceed 7 inches */
+    height: auto;
+    /* Height adjusts automatically */
+    aspect-ratio: calc(612 / 792);
+    /* Set aspect ratio based on typical PDF page size (adjust as needed) */
     overflow: auto;
     /* Adds scrollbars when content overflows */
     display: flex;
-    /* Ensures the container and its children (canvas, buttons) are aligned properly */
     flex-direction: column;
-    /* Stacks children vertically */
     align-items: center;
     /* Centers children horizontally */
     margin: 20px 0;
@@ -54,10 +56,19 @@ canvas {
 }
 
 #navigation-controls {
+    position: sticky;
+    /* Makes navigation controls stick to the bottom or top */
+    bottom: 0;
+    /* Positions the controls at the bottom of the viewport */
+    background: white;
+    /* Adds a background color to ensure visibility on scrolling */
     display: flex;
-    /* Aligns navigation buttons in a row */
     justify-content: center;
     /* Centers the buttons horizontally */
     padding: 10px 0;
     /* Adds some padding around the buttons for spacing */
+    width: 100%;
+    /* Ensure full width */
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow for better visibility */
 }
