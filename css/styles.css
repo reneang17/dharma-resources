@@ -27,16 +27,37 @@ header {
     /* Initially hide the link */
 }
 
-#canvas-container {
+#pdf-viewer-container {
     width: 100%;
+    /* Ensures the container takes the full width of its parent */
+    max-height: 7in;
+    /* Maximum height for the PDF display */
     overflow: auto;
+    /* Adds scrollbars when content overflows */
+    display: flex;
+    /* Ensures the container and its children (canvas, buttons) are aligned properly */
+    flex-direction: column;
+    /* Stacks children vertically */
+    align-items: center;
+    /* Centers children horizontally */
+    margin: 20px 0;
+    /* Adds some space above and below the container */
 }
 
 canvas {
-    width: 100%;
-    /* Ensures that canvas is responsive but maintains aspect ratio */
-    height: auto;
-    display: block;
-    /* Removes extra space below canvas */
+    max-width: 100%;
+    /* Canvas should not exceed the width of its container */
+    max-height: 100%;
+    /* Limits the height of the canvas to the container's size */
     border: 1px solid black;
+    /* Visual border for the canvas */
+}
+
+#navigation-controls {
+    display: flex;
+    /* Aligns navigation buttons in a row */
+    justify-content: center;
+    /* Centers the buttons horizontally */
+    padding: 10px 0;
+    /* Adds some padding around the buttons for spacing */
 }

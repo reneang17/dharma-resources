@@ -34,13 +34,16 @@
 
     <!--   <a href="teachings.html">Further study Dhammapada with Dorjé Lopön Dr. Hun Lye</a> -->
 
-
-    <canvas id="pdf-canvas"></canvas>
-    <button id="prev-page">Previous Page</button>
-    <button id="next-page">Next Page</button>
-    <input type="number" id="page-num" value="1">
-    <button id="go-page">Go</button>
-    <button id="download-pdf">Download PDF</button>
+    <div id="pdf-viewer-container">
+        <canvas id="pdf-canvas"></canvas>
+        <div id="navigation-controls">
+            <button id="prev-page">Previous Page</button>
+            <button id="next-page">Next Page</button>
+            <input type="number" id="page-num" value="1">
+            <button id="go-page">Go</button>
+            <button id="download-pdf">Download PDF</button>
+        </div>
+    </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
