@@ -32,20 +32,18 @@ header {
 }
 
 #pdf-viewer-container {
-    clear: both;
-    /* Clears the float, ensuring no float elements are to its left or right */
-    width: calc(100% - 40px);
-    /* Adjust width considering padding */
+    width: 90vw;
+    /* Limits the width to 90% of the viewport width */
     max-width: 7in;
+    /* Keeps the maximum width at 7 inches */
     aspect-ratio: calc(612 / 792);
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px auto;
-    /* Centers the container horizontally with margin */
+    /* Ensures center alignment */
     padding: 20px;
-    /* Padding to prevent content from touching the edges */
 }
 
 canvas {
