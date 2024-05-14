@@ -8,12 +8,8 @@
     <script src="js/tools.js"></script>
     <link rel="stylesheet" href="./css/styles.css">
 
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
-    <script>
-        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js';
-    </script>
+    <script src="PDFViewer.js"></script>
 
 
 </head>
@@ -39,21 +35,27 @@
     <!--   <a href="teachings.html">Further study Dhammapada with Dorjé Lopön Dr. Hun Lye</a> -->
 
 
-    <div id="canvas-container">
-        <canvas id="pdf-canvas"></canvas>
-    </div>
-    <div id="navigation-controls">
-        <button onclick="onPrevPage()">Previous Page</button>
-        <button onclick="onNextPage()">Next Page</button>
-        <button onclick="downloadPDF()">Download PDF</button>
-    </div>
-    <div id="page-controls">
-        <label for="page-num">Go to page:</label>
-        <input type="number" id="page-num" value="1">
-        <button onclick="gotoPage()">Go</button>
-    </div>
+    <canvas id="pdf-canvas"></canvas>
+    <button id="prev-page">Previous Page</button>
+    <button id="next-page">Next Page</button>
+    <input type="number" id="page-num" value="1">
+    <button id="go-page">Go</button>
+    <button id="download-pdf">Download PDF</button>
 
-    <script src="./js/pdf.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const mainViewer = new PDFViewer('pdf-canvas', {
+                prevPage: 'prev-page',
+                nextPage: 'next-page',
+                pageNum: 'page-num',
+                goPage: 'go-page',
+                downloadPDF: 'download-pdf',
+                pdfUrl: './path/to/main-document.pdf'
+            });
+            mainViewer.loadDocument(mainViewer.controls.pdfUrl);
+            mainViewer.setupEventListeners();
+        });
+    </script>
 
 </body>
 
