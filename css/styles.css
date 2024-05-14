@@ -32,9 +32,9 @@ header {
 }
 
 #pdf-viewer-container {
-    width: 90vw;
+    width: 95vw;
     /* Limits the width to 90% of the viewport width */
-    max-width: 8in;
+    max-width: 7.5in;
     /* Keeps the maximum width at 8 inches */
     height: auto;
     /* Adjust height dynamically based on content */
@@ -42,9 +42,9 @@ header {
     flex-direction: column;
     align-items: center;
     /* Center items horizontally within the container */
-    margin: 20px auto;
+    margin: 2px auto;
     /* Center the container on the page and provide vertical spacing */
-    padding: 20px;
+    padding: 2px;
     /* Padding to prevent content from touching the container edges */
 }
 
