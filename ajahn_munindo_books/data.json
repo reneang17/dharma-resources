@@ -11,7 +11,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 1."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=51",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=51",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-understanding-the-chaos"
         ],
         "utter": "Verse 1 was NOT uttered together with other verse(s)."
@@ -29,7 +29,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 2."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=73",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=73",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-happiness-follows",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-the-heart"
         ],
@@ -46,7 +46,7 @@
             "See pag. 58 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=75"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=75"
         ],
         "utter": "Verses [3, 4] were uttered together."
     },
@@ -62,8 +62,8 @@
             "See pag. 76 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=75",
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=84"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=75",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=84"
         ],
         "utter": "Verses [3, 4] were uttered together."
     },
@@ -78,7 +78,7 @@
             "See pag. 64 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=81"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=81"
         ],
         "utter": "Verse 5 was NOT uttered together with other verse(s)."
     },
@@ -94,8 +94,8 @@
             "See pag. 44 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=71",
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=52"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=71",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=52"
         ],
         "utter": "Verse 6 was NOT uttered together with other verse(s)."
     },
@@ -111,7 +111,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 7."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=90",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=90",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-vesakha-puja-the-right-amount"
         ],
         "utter": "Verse 7 was NOT uttered together with other verse(s)."
@@ -127,7 +127,7 @@
             "See pag. 14 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=31"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=31"
         ],
         "utter": "Verse 8 was NOT uttered together with other verse(s)."
     },
@@ -166,7 +166,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 11."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=86",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=86",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-storytelling",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-seeing-the-real"
         ],
@@ -184,7 +184,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 12."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=86",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=86",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-storytelling"
         ],
         "utter": "Verse 12 was NOT uttered together with other verse(s)."
@@ -211,7 +211,7 @@
             "See pag. 86 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=103"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=103"
         ],
         "utter": "Verse 14 was NOT uttered together with other verse(s)."
     },
@@ -227,7 +227,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 15."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=96",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=96",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-remorse"
         ],
         "utter": "Verse 15 was NOT uttered together with other verse(s)."
@@ -244,7 +244,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 16."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=96",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=96",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-full-appreciation"
         ],
         "utter": "Verse 16 was NOT uttered together with other verse(s)."
@@ -291,7 +291,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 19."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=108",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=108",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-actuality"
         ],
         "utter": "Verses [19, 20] were uttered together."
@@ -307,7 +307,7 @@
             "See pag. 94 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=111"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=111"
         ],
         "utter": "Verses [19, 20] were uttered together."
     },
@@ -323,7 +323,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 21."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=14",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=14",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-aliveness"
         ],
         "utter": "Verses [21, 22, 23] were uttered together."
@@ -370,7 +370,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 24."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=20",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=20",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-not-the-way-it-seems"
         ],
         "utter": "Verse 24 was NOT uttered together with other verse(s)."
@@ -386,7 +386,7 @@
             "See pag. 18 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=30"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=30"
         ],
         "utter": "Verse 25 was NOT uttered together with other verse(s)."
     },
@@ -403,7 +403,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 26."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=70",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=70",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-valuing-31st-october-2020",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-cultivation"
         ],
@@ -487,7 +487,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 33."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=20",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=20",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-shaping-life"
         ],
         "utter": "Verses [33, 34] were uttered together."
@@ -504,7 +504,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 34."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=66",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=66",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-addicted-to-distraction-magha-puja"
         ],
         "utter": "Verses [33, 34] were uttered together."
@@ -520,7 +520,7 @@
             "See pag. 80 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=88"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=88"
         ],
         "utter": "Verse 35 was NOT uttered together with other verse(s)."
     },
@@ -535,7 +535,7 @@
             "See pag. 58 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=70"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=70"
         ],
         "utter": "Verse 36 was NOT uttered together with other verse(s)."
     },
@@ -561,7 +561,7 @@
             "See pag. 56 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=68"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=68"
         ],
         "utter": "Verses [38, 39] were uttered together."
     },
@@ -576,7 +576,7 @@
             "See pag. 56 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=64"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=64"
         ],
         "utter": "Verses [38, 39] were uttered together."
     },
@@ -614,7 +614,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 42."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=94",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=94",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-ease"
         ],
         "utter": "Verse 42 was NOT uttered together with other verse(s)."
@@ -631,7 +631,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 43."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=56",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=56",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-prioritizing"
         ],
         "utter": "Verse 43 was NOT uttered together with other verse(s)."
@@ -680,7 +680,7 @@
             "See pag. 52 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=60"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=60"
         ],
         "utter": "Verse 47 was NOT uttered together with other verse(s)."
     },
@@ -707,7 +707,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 49."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=107",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=107",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-magha-puja-moving-through-the-world"
         ],
         "utter": "Verse 49 was NOT uttered together with other verse(s)."
@@ -773,7 +773,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 53."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=38",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=38",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-optimum-benefit-vesakha-puja"
         ],
         "utter": "Verse 53 was NOT uttered together with other verse(s)."
@@ -790,7 +790,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 54."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=94",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=94",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-the-power-of-virtue"
         ],
         "utter": "Verses [54, 55] were uttered together."
@@ -844,7 +844,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 58-59."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=23",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=23",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-vesakha-puja-transformation"
         ],
         "utter": "Verses [58, 59] were uttered together."
@@ -861,7 +861,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 58-59."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=23",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=23",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-vesakha-puja-transformation"
         ],
         "utter": "Verses [58, 59] were uttered together."
@@ -877,7 +877,7 @@
             "See pag. 82 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=90"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=90"
         ],
         "utter": "Verse 60 was NOT uttered together with other verse(s)."
     },
@@ -918,7 +918,7 @@
             "See pag. 20 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=28"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=28"
         ],
         "utter": "Verse 63 was NOT uttered together with other verse(s)."
     },
@@ -948,7 +948,7 @@
             "See pag. 22 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=34"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=34"
         ],
         "utter": "Verse 65 was NOT uttered together with other verse(s)."
     },
@@ -974,7 +974,7 @@
             "See pag. 36 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=44"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=44"
         ],
         "utter": "Verse 67 was NOT uttered together with other verse(s)."
     },
@@ -990,7 +990,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 68."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=42",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=42",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-nourishment"
         ],
         "utter": "Verse 68 was NOT uttered together with other verse(s)."
@@ -1083,7 +1083,7 @@
             "See pag. 32 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=49"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=49"
         ],
         "utter": "Verse 76 was NOT uttered together with other verse(s)."
     },
@@ -1109,7 +1109,7 @@
             "See pag. 22 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=39"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=39"
         ],
         "utter": "Verse 78 was NOT uttered together with other verse(s)."
     },
@@ -1151,7 +1151,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 81."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=62",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=62",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-asalha-puja-imperturbability"
         ],
         "utter": "Verse 81 was NOT uttered together with other verse(s)."
@@ -1167,7 +1167,7 @@
             "See pag. 80 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=97"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=97"
         ],
         "utter": "Verse 82 was NOT uttered together with other verse(s)."
     },
@@ -1204,7 +1204,7 @@
             "See pag. 2 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=10"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=10"
         ],
         "utter": "Verse 85 was NOT uttered together with other verse(s)."
     },
@@ -1231,7 +1231,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 87-88."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=19",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=19",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-positively-uncertain"
         ],
         "utter": "Verses [87, 88, 89] were uttered together."
@@ -1248,7 +1248,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 87-88."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=19",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=19",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-positively-uncertain"
         ],
         "utter": "Verses [87, 88, 89] were uttered together."
@@ -1276,7 +1276,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 90."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=104",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=104",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-no-more-distress"
         ],
         "utter": "Verse 90 was NOT uttered together with other verse(s)."
@@ -1293,7 +1293,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 91."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=91",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=91",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-visakha-puja-learning-how-to-let-go"
         ],
         "utter": "Verse 91 was NOT uttered together with other verse(s)."
@@ -1309,7 +1309,7 @@
             "See pag. 100 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=112"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=112"
         ],
         "utter": "Verse 92 was NOT uttered together with other verse(s)."
     },
@@ -1348,7 +1348,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 95."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=85",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=85",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-slowing-down",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-transforming"
         ],
@@ -1365,7 +1365,7 @@
             "See pag. 40 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=52"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=52"
         ],
         "utter": "Verse 96 was NOT uttered together with other verse(s)."
     },
@@ -1423,7 +1423,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 100."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=80",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=80",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-simplicity",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-one-word"
         ],
@@ -1440,7 +1440,7 @@
             "See pag. 66 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=74"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=74"
         ],
         "utter": "Verse 101 was NOT uttered together with other verse(s)."
     },
@@ -1470,7 +1470,7 @@
             "See pag. 60 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=68"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=68"
         ],
         "utter": "Verses [102, 103] were uttered together."
     },
@@ -1485,7 +1485,7 @@
             "See pag. 16 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=33"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=33"
         ],
         "utter": "Verses [104, 105] were uttered together."
     },
@@ -1500,7 +1500,7 @@
             "See pag. 16 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=33"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=33"
         ],
         "utter": "Verses [104, 105] were uttered together."
     },
@@ -1576,7 +1576,7 @@
             "See pag. 10 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=18"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=18"
         ],
         "utter": "Verse 111 was NOT uttered together with other verse(s)."
     },
@@ -1591,7 +1591,7 @@
             "See pag. 102 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=110"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=110"
         ],
         "utter": "Verse 112 was NOT uttered together with other verse(s)."
     },
@@ -1670,7 +1670,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 118."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=53",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=53",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-goodness"
         ],
         "utter": "Verse 118 was NOT uttered together with other verse(s)."
@@ -1704,7 +1704,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 120."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=89",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=89",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-trust-faith"
         ],
         "utter": "Verses [119, 120] were uttered together."
@@ -1738,7 +1738,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 122."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=59",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=59",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-small-matters"
         ],
         "utter": "Verse 122 was NOT uttered together with other verse(s)."
@@ -1755,7 +1755,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 123."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=100",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=100",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-heedlessness"
         ],
         "utter": "Verse 123 was NOT uttered together with other verse(s)."
@@ -1840,7 +1840,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 129."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=110",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=110",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-empathy",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-empathy"
         ],
@@ -1857,7 +1857,7 @@
             "See pag. 46 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=63"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=63"
         ],
         "utter": "Verse 130 was NOT uttered together with other verse(s)."
     },
@@ -1875,7 +1875,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 131."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=98",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=98",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-seeking-contentment",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-restraint",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-harmlessness"
@@ -1893,7 +1893,7 @@
             "See pag. 14 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=26"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=26"
         ],
         "utter": "Verses [131, 132] were uttered together."
     },
@@ -1924,7 +1924,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 134."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=61",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=61",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-non-retaliation"
         ],
         "utter": "Verses [133, 134] were uttered together."
@@ -1940,7 +1940,7 @@
             "See pag. 50 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=58"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=58"
         ],
         "utter": "Verse 135 was NOT uttered together with other verse(s)."
     },
@@ -2021,7 +2021,7 @@
             "See pag. 66 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=83"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=83"
         ],
         "utter": "Verse 142 was NOT uttered together with other verse(s)."
     },
@@ -2036,7 +2036,7 @@
             "See pag. 88 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=105"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=105"
         ],
         "utter": "Verses [143, 144] were uttered together."
     },
@@ -2068,7 +2068,7 @@
             "See pag. 24 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=41"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=41"
         ],
         "utter": "Verse 145 was NOT uttered together with other verse(s)."
     },
@@ -2143,7 +2143,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 151."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=108",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=108",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-frame-of-reference"
         ],
         "utter": "Verse 151 was NOT uttered together with other verse(s)."
@@ -2172,7 +2172,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 153-154."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=121",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=121",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-no-more-suffering",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-one-with-the-unmade"
         ],
@@ -2191,7 +2191,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 153-154."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=121",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=121",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-no-more-suffering",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-one-with-the-unmade"
         ],
@@ -2275,7 +2275,7 @@
             "See pag. 26 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=34"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=34"
         ],
         "utter": "Verse 160 was NOT uttered together with other verse(s)."
     },
@@ -2301,7 +2301,7 @@
             "See pag. 50 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=67"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=67"
         ],
         "utter": "Verse 162 was NOT uttered together with other verse(s)."
     },
@@ -2336,7 +2336,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 164."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=92",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=92",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-harmony"
         ],
         "utter": "Verse 164 was NOT uttered together with other verse(s)."
@@ -2368,7 +2368,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 166."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=16",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=16",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-no-distraction"
         ],
         "utter": "Verse 166 was NOT uttered together with other verse(s)."
@@ -2400,7 +2400,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 168."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=92",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=92",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-contentment"
         ],
         "utter": "Verses [168, 169] were uttered together."
@@ -2417,7 +2417,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 169."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=21",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=21",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-now-and-the-future"
         ],
         "utter": "Verses [168, 169] were uttered together."
@@ -2466,7 +2466,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 172."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=37",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=37",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-the-gift-of-aspiration"
         ],
         "utter": "Verse 172 was NOT uttered together with other verse(s)."
@@ -2484,7 +2484,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 173."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=99",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=99",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-honesty-f7e36eda-61db-4dc8-b245-f1c5b07c90c4",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-transformation-pavarana-day"
         ],
@@ -2516,7 +2516,7 @@
             "See pag. 64 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=72"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=72"
         ],
         "utter": "Verse 175 was NOT uttered together with other verse(s)."
     },
@@ -2542,7 +2542,7 @@
             "See pag. 90 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=98"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=98"
         ],
         "utter": "Verse 177 was NOT uttered together with other verse(s)."
     },
@@ -2558,7 +2558,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 178."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=47",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=47",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-irreversibility"
         ],
         "utter": "Verse 178 was NOT uttered together with other verse(s)."
@@ -2575,7 +2575,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 179."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=119",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=119",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-invitation"
         ],
         "utter": "Verses [179, 180] were uttered together."
@@ -2617,7 +2617,7 @@
             "See pag. 42 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=54"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=54"
         ],
         "utter": "Verse 182 was NOT uttered together with other verse(s)."
     },
@@ -2635,7 +2635,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 183."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=82",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=82",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-a-formula-for-life",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-purification",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-magha-puja-the-way"
@@ -2653,7 +2653,7 @@
             "See pag. 52 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=69"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=69"
         ],
         "utter": "Verses [184, 185, 193] were uttered together."
     },
@@ -2668,7 +2668,7 @@
             "See pag. 52 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=64"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=64"
         ],
         "utter": "Verses [184, 185, 193] were uttered together."
     },
@@ -2683,7 +2683,7 @@
             "See pag. 84 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=101"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=101"
         ],
         "utter": "Verses [186, 187] were uttered together."
     },
@@ -2698,7 +2698,7 @@
             "See pag. 84 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=101"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=101"
         ],
         "utter": "Verses [186, 187] were uttered together."
     },
@@ -2714,7 +2714,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 188-189."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=115",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=115",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-travelling"
         ],
         "utter": "Verses [188, 189, 190, 191, 192] were uttered together."
@@ -2731,7 +2731,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 188-189."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=115",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=115",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-travelling"
         ],
         "utter": "Verses [188, 189, 190, 191, 192] were uttered together."
@@ -2788,7 +2788,7 @@
             "See pag. 100 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=117"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=117"
         ],
         "utter": "Verses [184, 185, 193] were uttered together."
     },
@@ -2804,7 +2804,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 194."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=12",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=12",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-blessings"
         ],
         "utter": "Verse 194 was NOT uttered together with other verse(s)."
@@ -2820,7 +2820,7 @@
             "See pag. 70 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=78"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=78"
         ],
         "utter": "Verses [195, 196] were uttered together."
     },
@@ -2835,7 +2835,7 @@
             "See pag. 70 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=78"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=78"
         ],
         "utter": "Verses [195, 196] were uttered together."
     },
@@ -2852,7 +2852,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 197."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=86",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=86",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-happiness-indeed",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-equanimity"
         ],
@@ -2870,7 +2870,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 198."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=36",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=36",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-untroubled"
         ],
         "utter": "Verses [197, 198, 199] were uttered together."
@@ -2887,7 +2887,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 199."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=40",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=40",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-happiness"
         ],
         "utter": "Verses [197, 198, 199] were uttered together."
@@ -2915,7 +2915,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 201."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=24",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=24",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-one-upmanship"
         ],
         "utter": "Verse 201 was NOT uttered together with other verse(s)."
@@ -2931,7 +2931,7 @@
             "See pag. 6 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=14"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=14"
         ],
         "utter": "Verse 202 was NOT uttered together with other verse(s)."
     },
@@ -2962,7 +2962,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 204."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=106",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=106",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-true-principles"
         ],
         "utter": "Verse 204 was NOT uttered together with other verse(s)."
@@ -2979,7 +2979,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 205."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=84",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=84",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-nourishment"
         ],
         "utter": "Verse 205 was NOT uttered together with other verse(s)."
@@ -2996,7 +2996,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 206."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=76",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=76",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-noble-effort"
         ],
         "utter": "Verses [206, 207, 208] were uttered together."
@@ -3028,7 +3028,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 208."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=102",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=102",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-getting-our-bearings"
         ],
         "utter": "Verses [206, 207, 208] were uttered together."
@@ -3070,7 +3070,7 @@
             "See pag. 28 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=36"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=36"
         ],
         "utter": "Verses [209, 210, 211] were uttered together."
     },
@@ -3085,7 +3085,7 @@
             "See pag. 66 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=78"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=78"
         ],
         "utter": "Verse 212 was NOT uttered together with other verse(s)."
     },
@@ -3149,7 +3149,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 217."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=109",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=109",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-being-loving"
         ],
         "utter": "Verse 217 was NOT uttered together with other verse(s)."
@@ -3225,7 +3225,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 223."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=93",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=93",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-opposites"
         ],
         "utter": "Verse 223 was NOT uttered together with other verse(s)."
@@ -3242,7 +3242,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 224."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=40",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=40",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-how-to-be-happy"
         ],
         "utter": "Verse 224 was NOT uttered together with other verse(s)."
@@ -3274,7 +3274,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 226."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=28",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=28",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-right-aspiration"
         ],
         "utter": "Verse 226 was NOT uttered together with other verse(s)."
@@ -3320,7 +3320,7 @@
             "See pag. 30 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=42"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=42"
         ],
         "utter": "Verses [227, 228, 229, 230] were uttered together."
     },
@@ -3335,7 +3335,7 @@
             "See pag. 30 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=42"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=42"
         ],
         "utter": "Verses [227, 228, 229, 230] were uttered together."
     },
@@ -3421,7 +3421,7 @@
             "See pag. 20 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=32"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=32"
         ],
         "utter": "Verses [235, 236, 237, 238] were uttered together."
     },
@@ -3465,7 +3465,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 239."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=45",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=45",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-perfect-freedom",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-gradually-gradually",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-magha-puja-purification"
@@ -3549,7 +3549,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 245."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=24",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=24",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-not-easy"
         ],
         "utter": "Verses [244, 245] were uttered together."
@@ -3587,7 +3587,7 @@
             "See pag. 12 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=24"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=24"
         ],
         "utter": "Verses [246, 247, 248] were uttered together."
     },
@@ -3647,7 +3647,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 253."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=56",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=56",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-criticising"
         ],
         "utter": "Verse 253 was NOT uttered together with other verse(s)."
@@ -3690,7 +3690,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 256."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=87",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=87",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-deciding-the-case"
         ],
         "utter": "Verses [256, 257] were uttered together."
@@ -3720,8 +3720,8 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 258."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=95",
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=76",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=95",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=76",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-keeping-quiet",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-friendliness-and-fearlessness"
         ],
@@ -3775,7 +3775,7 @@
             "See pag. 48 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=65"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=65"
         ],
         "utter": "Verses [262, 263] were uttered together."
     },
@@ -3790,7 +3790,7 @@
             "See pag. 48 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=65"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=65"
         ],
         "utter": "Verses [262, 263] were uttered together."
     },
@@ -3851,7 +3851,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 268-269."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=35",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=35",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-the-wise",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-dilemmas"
         ],
@@ -3870,7 +3870,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 268-269."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=35",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=35",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-the-wise",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-dilemmas"
         ],
@@ -3903,7 +3903,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 271-272."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=90",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=90",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-resting-contented"
         ],
         "utter": "Verses [271, 272] were uttered together."
@@ -3920,7 +3920,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 271-272."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=90",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=90",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-resting-contented"
         ],
         "utter": "Verses [271, 272] were uttered together."
@@ -3959,7 +3959,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 275."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=18",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=18",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-no-more-thorns"
         ],
         "utter": "Verses [273, 274, 275, 276] were uttered together."
@@ -3975,7 +3975,7 @@
             "See pag. 46 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=58"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=58"
         ],
         "utter": "Verses [273, 274, 275, 276] were uttered together."
     },
@@ -4017,7 +4017,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 279."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=26",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=26",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-no-abiding-self"
         ],
         "utter": "Verses [277, 278, 279] were uttered together."
@@ -4092,7 +4092,7 @@
             "See pag. 104 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=116"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=116"
         ],
         "utter": "Verse 285 was NOT uttered together with other verse(s)."
     },
@@ -4164,7 +4164,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 290."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=25",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=25",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-dependable-happiness"
         ],
         "utter": "Verse 290 was NOT uttered together with other verse(s)."
@@ -4181,7 +4181,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 291."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=106",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=106",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-pursuing-happiness"
         ],
         "utter": "Verse 291 was NOT uttered together with other verse(s)."
@@ -4241,7 +4241,7 @@
             "See pag. 102 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=114"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=114"
         ],
         "utter": "Verses [296, 297, 298, 299, 300, 301] were uttered together."
     },
@@ -4257,7 +4257,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 297."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=60",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=60",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-awakening"
         ],
         "utter": "Verses [296, 297, 298, 299, 300, 301] were uttered together."
@@ -4297,7 +4297,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 300."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=30",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=30",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-compassionate-and-real",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-contributing-compassion"
         ],
@@ -4329,7 +4329,7 @@
             "See pag. 8 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=16"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=16"
         ],
         "utter": "Verse 302 was NOT uttered together with other verse(s)."
     },
@@ -4519,7 +4519,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 318."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=104",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=104",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-distorted-views",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-views"
         ],
@@ -4547,7 +4547,7 @@
             "See pag. 42 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=50"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=50"
         ],
         "utter": "Verses [320, 321, 322] were uttered together."
     },
@@ -4628,7 +4628,7 @@
             "See pag. 38 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=50"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=50"
         ],
         "utter": "Verse 327 was NOT uttered together with other verse(s)."
     },
@@ -4644,7 +4644,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 328."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=29",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=29",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-joyous-communion"
         ],
         "utter": "Verses [328, 329, 330] were uttered together."
@@ -4660,7 +4660,7 @@
             "See pag. 54 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=66"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=66"
         ],
         "utter": "Verses [328, 329, 330] were uttered together."
     },
@@ -4745,7 +4745,7 @@
             "See pag. 72 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=80"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=80"
         ],
         "utter": "Verses [334, 335, 336, 337] were uttered together."
     },
@@ -4804,7 +4804,7 @@
             "See pag. 96 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=113"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=113"
         ],
         "utter": "Verses [338, 339, 340, 341, 342, 343] were uttered together."
     },
@@ -4887,7 +4887,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 348."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=55",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=55",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-beyond-suffering",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-past-present-and-future"
         ],
@@ -4937,7 +4937,7 @@
             "See pag. 36 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=48"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=48"
         ],
         "utter": "Verses [351, 352] were uttered together."
     },
@@ -4963,7 +4963,7 @@
             "See pag. 104 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=112"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=112"
         ],
         "utter": "Verse 354 was NOT uttered together with other verse(s)."
     },
@@ -5096,7 +5096,7 @@
             "See pag. 32 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=44"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=44"
         ],
         "utter": "Verses [365, 366] were uttered together."
     },
@@ -5111,7 +5111,7 @@
             "See pag. 32 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=44"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=44"
         ],
         "utter": "Verses [365, 366] were uttered together."
     },
@@ -5148,7 +5148,7 @@
             "See pag. 92 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=100"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=100"
         ],
         "utter": "Verses [368, 369, 370, 371, 372, 373, 374, 375, 376] were uttered together."
     },
@@ -5207,7 +5207,7 @@
             "See pag. 50 of Dhammapada Reflections Vol. 3 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=62"
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=62"
         ],
         "utter": "Verses [368, 369, 370, 371, 372, 373, 374, 375, 376] were uttered together."
     },
@@ -5244,7 +5244,7 @@
             "See pag. 60 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=77"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=77"
         ],
         "utter": "Verse 377 was NOT uttered together with other verse(s)."
     },
@@ -5286,7 +5286,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 380."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=54",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=54",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-security"
         ],
         "utter": "Verses [379, 380] were uttered together."
@@ -5335,7 +5335,7 @@
             "See pag. 14 of Dhammapada Reflections Vol. 2 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=22"
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=22"
         ],
         "utter": "Verse 384 was NOT uttered together with other verse(s)."
     },
@@ -5377,7 +5377,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 387."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=57",
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=57",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-radiance"
         ],
         "utter": "Verse 387 was NOT uttered together with other verse(s)."
@@ -5416,7 +5416,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 390."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=48",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=48",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-intentional-inhibition-correction-of-verse-number"
         ],
         "utter": "Verses [389, 390] were uttered together."
@@ -5433,7 +5433,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 391."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=88",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=88",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-quality-being"
         ],
         "utter": "Verse 391 was NOT uttered together with other verse(s)."
@@ -5450,7 +5450,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 392."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=32",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=32",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-asalha-puja-gratitude"
         ],
         "utter": "Verse 392 was NOT uttered together with other verse(s)."
@@ -5468,7 +5468,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 393."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=74",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=74",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-viewing-the-world-de2ec778-86e1-4d78-b5d3-260dc08330c3",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-pavarana-day-worthiness"
         ],
@@ -5545,7 +5545,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 399."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=38",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=38",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-inner-strength"
         ],
         "utter": "Verse 399 was NOT uttered together with other verse(s)."
@@ -5572,7 +5572,7 @@
             "See pag. 6 of Dhammapada Reflections Vol. 1 by Ajahn Munindo."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=23"
+            "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=23"
         ],
         "utter": "Verse 401 was NOT uttered together with other verse(s)."
     },
@@ -5625,7 +5625,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 405."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=82",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=82",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-strength-and-weakness"
         ],
         "utter": "Verse 405 was NOT uttered together with other verse(s)."
@@ -5669,7 +5669,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 408."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=102",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=102",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-the-power-of-gentleness",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-gentle-strength"
         ],
@@ -5787,7 +5787,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 418."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=13",
+            "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=13",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-like-and-dislike",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-not-swayed"
         ],
@@ -5827,7 +5827,7 @@
             "Ajahn Munindo commented at https://ratanagiri.org.uk. Search there for v. 421."
         ],
         "urls": [
-            "https://reneang17.github.io/dharma-resources/ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=46",
+            "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=46",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-slowing-down-the-momentum"
         ],
         "utter": "Verse 421 was NOT uttered together with other verse(s)."
