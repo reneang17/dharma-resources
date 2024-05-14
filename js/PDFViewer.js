@@ -11,7 +11,7 @@ class PDFViewer {
     async renderPage(num) {
         this.pageRendering = true;
         const page = await this.pdfDoc.getPage(num);
-        const viewport = page.getViewport({ scale: 1.5 });
+        const viewport = page.getViewport({ scale: 1 });
         this.canvas.height = viewport.height;
         this.canvas.width = viewport.width;
 
