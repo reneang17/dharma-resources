@@ -32,10 +32,11 @@ header {
 }
 
 #pdf-viewer-container {
-
-    max-height: 7in;
+    width: 70vw;
+    /* Limits the width to 70% of the viewport width */
+    max-width: 8in;
     /* Keeps the maximum width at 8 inches */
-    width: auto;
+    height: auto;
     /* Adjust height dynamically based on content */
     display: flex;
     flex-direction: column;
