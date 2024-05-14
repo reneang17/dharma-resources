@@ -34,15 +34,20 @@ header {
 #pdf-viewer-container {
     width: 90vw;
     /* Limits the width to 90% of the viewport width */
-
+    max-width: calc(100vw < 8in ? 100vw : 8in);
+    /* Conditional max-width */
     aspect-ratio: calc(612 / 792);
+    /* Maintain the aspect ratio based on typical PDF page size, adjust as needed */
     overflow: hidden;
+    /* Hide any overflowing content */
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* Center items horizontally within the container */
     margin: 20px auto;
-    /* Ensures center alignment */
+    /* Center the container on the page and provide vertical spacing */
     padding: 20px;
+    /* Padding to prevent content from touching the container edges */
 }
 
 canvas {
