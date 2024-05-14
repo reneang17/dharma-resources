@@ -12,7 +12,7 @@ class PDFViewer {
         this.pageRendering = true;
         const page = await this.pdfDoc.getPage(num);
         // Increase the scale for better resolution; you might want to adjust this value based on testing
-        const scale = 3;  // Adjust this value as needed for better clarity
+        const scale = 10;  // Adjust this value as needed for better clarity
         const viewport = page.getViewport({ scale: scale });
         this.canvas.height = viewport.height;
         this.canvas.width = viewport.width;
