@@ -8,8 +8,6 @@ html {
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
-    /* Prevent horizontal scrolling */
 }
 
 header {
@@ -23,45 +21,43 @@ header {
     /* Maintains aspect ratio */
 }
 
+
 #randomPageLink {
     display: none;
     /* Initially hide the link */
 }
 
 #pdf-viewer-container {
-    width: auto;
-    /* Auto width to maintain aspect ratio based on height */
+    width: 100%;
+    /* Ensures the container takes the full width of its parent */
     max-height: 7in;
-    height: auto;
-    /* Height based on content */
+    /* Maximum height for the PDF display */
     overflow: auto;
-    margin: 20px auto;
-    /* Center the container */
+    /* Adds scrollbars when content overflows */
     display: flex;
+    /* Ensures the container and its children (canvas, buttons) are aligned properly */
     flex-direction: column;
+    /* Stacks children vertically */
     align-items: center;
-    justify-content: center;
+    /* Centers children horizontally */
+    margin: 20px 0;
+    /* Adds some space above and below the container */
 }
 
 canvas {
-    display: block;
-    /* Removes bottom space/gap */
-    max-height: 7in;
-    /* Set max height */
-    height: 100%;
-    /* Full height of the container */
-    width: auto;
-    /* Auto width to maintain aspect ratio */
+    max-width: 100%;
+    /* Canvas should not exceed the width of its container */
+    max-height: 100%;
+    /* Limits the height of the canvas to the container's size */
+    border: 1px solid black;
+    /* Visual border for the canvas */
 }
 
 #navigation-controls {
     display: flex;
+    /* Aligns navigation buttons in a row */
     justify-content: center;
+    /* Centers the buttons horizontally */
     padding: 10px 0;
-}
-
-@media (max-width: 768px) {
-    #pdf-viewer-container {
-        margin: 10px auto;
-    }
+    /* Adds some padding around the buttons for spacing */
 }
