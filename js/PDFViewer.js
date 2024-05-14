@@ -11,13 +11,9 @@ class PDFViewer {
     async renderPage(num) {
         this.pageRendering = true;
         const page = await this.pdfDoc.getPage(num);
-        const scale = window.devicePixelRatio || 1;
-        const viewport = page.getViewport({ scale: scale });
-        const container = document.getElementById('pdf-viewer-container');
-
-        // Set canvas dimensions based on container size to maintain aspect ratio
-        this.canvas.width = container.clientWidth;
-        this.canvas.height = container.clientHeight;
+        const viewport = page.getViewport({ scale: 1.5 });
+        this.canvas.height = viewport.height;
+        this.canvas.width = viewport.width;
 
         const renderContext = {
             canvasContext: this.ctx,
@@ -26,7 +22,7 @@ class PDFViewer {
 
         await page.render(renderContext).promise;
         this.pageRendering = false;
-        document.getElementById(this.controls.pageNum).value = num;
+        document.getElementById(this.controls.pageNum).value = num;  // Update current page in text field
     }
 
     loadDocument(url) {
