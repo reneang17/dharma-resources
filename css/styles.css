@@ -13,6 +13,11 @@
     --lightgray: #F2F2F2;
 }
 
+html {
+    font-size: 16px;
+    /* This sets the base font size for the whole page */
+}
+
 html,
 body {
     width: 100%;
@@ -20,6 +25,16 @@ body {
 
 }
 
+button,
+input,
+label,
+p,
+a,
+span,
+div {
+    font-size: 1.5rem;
+    /* 1rem equals the font-size of the root, which is 16px */
+}
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -256,9 +271,9 @@ button {
 }
 
 input {
-    background-color: var(--lightgray);
+    background-color: var(--darkblu);
     /* Light gray background for input fields */
-    color: var(--darkblue);
+    color: var(--lightgreen);
     /* Dark blue text in input fields */
     border: 1px solid var(--darkgray);
     /* Dark gray border for inputs */
@@ -268,4 +283,10 @@ input {
 a {
     color: var(--lightgreen);
     /* Light green text for links */
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    /* 32px if the base size is 16px */
 }
