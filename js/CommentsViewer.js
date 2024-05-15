@@ -50,7 +50,7 @@ class CommentsViewer {
 
     async renderPage(num) {
         const page = await this.pdfDoc.getPage(num);
-        const scale = 1.5;  // Adjust scale as needed for better viewing
+        const scale = 3;  // Adjust scale as needed for better viewing
         const viewport = page.getViewport({ scale: scale });
 
         this.canvas.height = viewport.height;
