@@ -21,150 +21,167 @@
 </head>
 
 <body>
+
     <div>
         <header>
             <img src="assets/pexels-soumenmaity-634770.jpg" alt="" id="headerImage">
         </header>
     </div>
+    <main>
 
-    <h1>Study the Dhammapada</h1>
+        <h1>Study the Dhammapada</h1>
 
 
-    <!--   <a href="teachings.html">Further study Dhammapada with Dorjé Lopön Dr. Hun Lye</a> -->
+        <!--   <a href="teachings.html">Further study Dhammapada with Dorjé Lopön Dr. Hun Lye</a> -->
 
-    <div id="pdf-viewer-container">
-        <div id="navigation-controls">
-            <button id="random-page">Random</button>
-            <div class="input-group">
-                <button id="prev-page">Prev Page</button>
-                <button id="next-page">Next Page</button>
+        <div id="pdf-viewer-container">
+            <div id="navigation-controls">
+                <button id="random-page">Random</button>
+                <div class="input-group">
+                    <button id="prev-page">Prev Page</button>
+                    <button id="next-page">Next Page</button>
 
-                <input type="number" id="page-num" value="1" min="1" max="164" size="3">
-                <button id="go-page">Go</button>
+                    <input type="number" id="page-num" value="1" min="1" max="164" size="3">
+                    <button id="go-page">Go</button>
+                </div>
+                <button id="download-pdf">Open in new Tab</button>
             </div>
-            <button id="download-pdf">Open in new Tab</button>
+            <canvas id="pdf-canvas"></canvas>
         </div>
-        <canvas id="pdf-canvas"></canvas>
-    </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const mainViewer = new PDFViewer('pdf-canvas', {
-                prevPage: 'prev-page',
-                nextPage: 'next-page',
-                randomPage: 'random-page',  // Include the ID of the new button
-                pageNum: 'page-num',
-                goPage: 'go-page',
-                downloadPDF: 'download-pdf',
-                pdfUrl: './ajahn_munindo_books/dhammapada-for-contemplation-5th-LARGE-WEB-2017-02-05.pdf',
-                minPage: 1,
-                maxPage: 164,
-                randomMin: 21,
-                randomMax: 154
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const mainViewer = new PDFViewer('pdf-canvas', {
+                    prevPage: 'prev-page',
+                    nextPage: 'next-page',
+                    randomPage: 'random-page',  // Include the ID of the new button
+                    pageNum: 'page-num',
+                    goPage: 'go-page',
+                    downloadPDF: 'download-pdf',
+                    pdfUrl: './ajahn_munindo_books/dhammapada-for-contemplation-5th-LARGE-WEB-2017-02-05.pdf',
+                    minPage: 1,
+                    maxPage: 164,
+                    randomMin: 21,
+                    randomMax: 154
+                });
+                mainViewer.loadDocument(mainViewer.controls.pdfUrl);
+                mainViewer.setupEventListeners();
             });
-            mainViewer.loadDocument(mainViewer.controls.pdfUrl);
-            mainViewer.setupEventListeners();
-        });
-    </script>
+        </script>
 
 
-    <div class="verse-form-container">
-        <label for="verseNumber">Type the verse number (1 to 423) you would like to study:</label>
-        <input type="number" id="verseNumber" min="1" max="423" required>
-        <button onclick="fetchVerseDetails()">Enter</button>
-    </div>
-    <div id="verseDetails"></div> <!-- Keeping the verse details outside the form container for clarity -->
+        <div class="verse-form-container">
+            <label for="verseNumber">Type the verse number (1 to 423) you would like to study:</label>
+            <input type="number" id="verseNumber" min="1" max="423" required>
+            <button onclick="fetchVerseDetails()">Enter</button>
+        </div>
+        <div id="verseDetails"></div> <!-- Keeping the verse details outside the form container for clarity -->
 
 
-    <div class="license">
-        <h2><em>About the license of distrubution of the Dhammapada Reflections Series and A Dhammapada for
-                Contemplation by Ajahn Munindo</em></h2>
-        <p class="license">These publications are made available for free distribution by Aruno Publications</p>
+        <div class="license">
+            <h2><em>About the license of distrubution of the Dhammapada Reflections Series and A Dhammapada for
+                    Contemplation by Ajahn Munindo</em></h2>
+            <p class="license">These publications are made available for free distribution by Aruno Publications</p>
 
-        <p class="license"><em>Books:</em>
-            A Dhammapada for Contemplation, Dhammapada Reflections Volume 1, Dhammapada Reflections Volume 2, Dhammapada
-            Reflections Volume 3
-        </p>
+            <p class="license"><em>Books:</em>
+                A Dhammapada for Contemplation, Dhammapada Reflections Volume 1, Dhammapada Reflections Volume 2,
+                Dhammapada
+                Reflections Volume 3
+            </p>
 
-        <p class="license"><em>Download Originals:</em>
-            These books are freely available for download. Please visit <a class="license"
-                href="https://forestsangha.org/teachings/books/authors/ajahn-munindo?language=English">Forest
-                Sangha</a> for direct
-            downloads. Also, one can contact Aruna Ratanagiri Buddhist Monastery at <a class="license"
-                href="https://ratanagiri.org.uk/contact">this link</a>
-        </p>
+            <p class="license"><em>Download Originals:</em>
+                These books are freely available for download. Please visit <a class="license"
+                    href="https://forestsangha.org/teachings/books/authors/ajahn-munindo?language=English">Forest
+                    Sangha</a> for direct
+                downloads. Also, one can contact Aruna Ratanagiri Buddhist Monastery at <a class="license"
+                    href="https://ratanagiri.org.uk/contact">this link</a>
+            </p>
 
-        <p class="license"><em>License:</em>
-            These works are distributed under a <a class="license"
-                href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
-                Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.
-        </p>
+            <p class="license"><em>License:</em>
+                These works are distributed under a <a class="license"
+                    href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+                    Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.
+            </p>
 
-        <p class="license"><em>Conditions:</em>
-            Attribution: Credit "Ajahn Munindo" as the author and "Aruno Publications" as the publisher. Noncommercial:
-            This GitHub page is non-commercial, intended solely for free distribution of these works. No Derivatives:
-            The PDFs are provided as-is, without modifications, in compliance with the 'NoDerivatives' condition of the
-            license.
-        </p>
-
-
-        <p class="license"><em>Quote:</em><br>
-            "Sabbadānaṃ dhammadānaṃ jinati - The gift of Dhamma surpasses all other gifts."
-        </p>
-
-        <p class="license"><em>Please Note:</em><br>
-            This project is created and maintained with the intent to facilitate access to these texts in the spirit of
-            free sharing and non-commercial distribution. Any use of these materials should strictly adhere to the
-            principles outlined by the Creative Commons license.
-        </p>
-    </div>
-
-    <div class="license">
-        <h2><em>About the license of the material in the links to http://www.ratanagiri.org.uk </em></h2>
-        <p class="license"><em>Additional Resources:</em> For more resources and teachings, visit <a class="license"
-                href="http://www.ratanagiri.org.uk">http://www.ratanagiri.org.uk</a>. The content on their website
-            is available under a <a class="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative
-                Commons
-                Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. We are grateful to all
-            contributors, including the developers and photographers like Chinch Gryniewicz and Gary Morrison, whose
-            efforts support the Dhamma dissemination.</p>
-
-        <p class="license"><em>Commitment to Free Distribution:</em> Like www.ratanagiri.org.uk, this project is
-            committed to
-            distributing Dhamma materials free of charge. We support and share this aspiration, and we request all users
-            to honor and uphold this principle of non-commercial, free sharing of information. We only show links but do
-            not copy any of their material
-            at all but provide links to their website so you could read the related material there. </p>
-    </div>
+            <p class="license"><em>Conditions:</em>
+                Attribution: Credit "Ajahn Munindo" as the author and "Aruno Publications" as the publisher.
+                Noncommercial:
+                This GitHub page is non-commercial, intended solely for free distribution of these works. No
+                Derivatives:
+                The PDFs are provided as-is, without modifications, in compliance with the 'NoDerivatives' condition of
+                the
+                license.
+            </p>
 
 
-    <div class="license">
-        <h2><em>About the license of the material in the links to https://www.tipitaka.net</em></h2>
-        <p class="license"><em>Additional Resources:</em> We also include link to the historical context of the
-            dhammapada verses <a class="license" href="https://www.tipitaka.net">https://www.tipitaka.net</a>. Who have
-            all rights reserved of their material. That is why we only show links but do not copy any of their material
-            at all but provide links to their website so you could read the related material there. </p>
+            <p class="license"><em>Quote:</em><br>
+                "Sabbadānaṃ dhammadānaṃ jinati - The gift of Dhamma surpasses all other gifts."
+            </p>
 
-        <p class="license"><em>Commitment to Free Distribution:</em> Like tipitaka.net, this project is
-            committed to
-            distributing Dhamma materials free of charge. We support and share this aspiration, and we request all users
-            to honor and uphold this principle of non-commercial, free sharing of information.</p>
-    </div>
+            <p class="license"><em>Please Note:</em><br>
+                This project is created and maintained with the intent to facilitate access to these texts in the spirit
+                of
+                free sharing and non-commercial distribution. Any use of these materials should strictly adhere to the
+                principles outlined by the Creative Commons license.
+            </p>
+        </div>
 
-    <div class="license">
-        <h2><em>About the credits and license of the photo used in this website</em></h2>
-        <p class="license"> The picture was taken from pexels.com, specifically from <a class="license"
-                href="https://www.pexels.com/photo/japan-suicide-forest-634770/">this link</a>.
-            Please note that depicted content is protected by privacy, copyright or trademark rights. I use it in the
-            terms explained in the terms explain at <a class="license"
-                href="https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project#:~:text=Yes%2C%20all%20photos%20and%20videos,%2C%20product%2C%20or%20anywhere%20else.">this
-                link</a>. In particular, here I explicitly state that the he depicted work is not endorsing or taking
-            part in this non-comersial website service.
+        <div class="license">
+            <h2><em>About the license of the material in the links to http://www.ratanagiri.org.uk </em></h2>
+            <p class="license"><em>Additional Resources:</em> For more resources and teachings, visit <a class="license"
+                    href="http://www.ratanagiri.org.uk">http://www.ratanagiri.org.uk</a>. The content on their website
+                is available under a <a class="license"
+                    href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative
+                    Commons
+                    Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. We are grateful to all
+                contributors, including the developers and photographers like Chinch Gryniewicz and Gary Morrison, whose
+                efforts support the Dhamma dissemination.</p>
 
-        </p>
+            <p class="license"><em>Commitment to Free Distribution:</em> Like www.ratanagiri.org.uk, this project is
+                committed to
+                distributing Dhamma materials free of charge. We support and share this aspiration, and we request all
+                users
+                to honor and uphold this principle of non-commercial, free sharing of information. We only show links
+                but do
+                not copy any of their material
+                at all but provide links to their website so you could read the related material there. </p>
+        </div>
 
 
-    </div>
+        <div class="license">
+            <h2><em>About the license of the material in the links to https://www.tipitaka.net</em></h2>
+            <p class="license"><em>Additional Resources:</em> We also include link to the historical context of the
+                dhammapada verses <a class="license" href="https://www.tipitaka.net">https://www.tipitaka.net</a>. Who
+                have
+                all rights reserved of their material. That is why we only show links but do not copy any of their
+                material
+                at all but provide links to their website so you could read the related material there. </p>
+
+            <p class="license"><em>Commitment to Free Distribution:</em> Like tipitaka.net, this project is
+                committed to
+                distributing Dhamma materials free of charge. We support and share this aspiration, and we request all
+                users
+                to honor and uphold this principle of non-commercial, free sharing of information.</p>
+        </div>
+
+        <div class="license">
+            <h2><em>About the credits and license of the photo used in this website</em></h2>
+            <p class="license"> The picture was taken from pexels.com, specifically from <a class="license"
+                    href="https://www.pexels.com/photo/japan-suicide-forest-634770/">this link</a>.
+                Please note that depicted content is protected by privacy, copyright or trademark rights. I use it in
+                the
+                terms explained in the terms explain at <a class="license"
+                    href="https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project#:~:text=Yes%2C%20all%20photos%20and%20videos,%2C%20product%2C%20or%20anywhere%20else.">this
+                    link</a>. In particular, here I explicitly state that the he depicted work is not endorsing or
+                taking
+                part in this non-comersial website service.
+
+            </p>
+
+
+        </div>
+
+    </main>
 
     <footer>
         <div class="footer-image"></div>
