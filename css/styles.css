@@ -101,16 +101,72 @@ canvas {
     /* Ensures border is included in the width calculation */
 }
 
-.navigation-controls {
-    width: 100%;
-    /* Controls match the width of the container */
+
+
+#navigation-controls {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    /* Distributes space evenly between elements */
+    width: 100%;
     padding: 2px 0;
     margin-bottom: 2px;
-    /* Space between the controls and the PDF */
     background: #f9f9f9;
-    /* Light background for controls */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow for depth */
+}
+
+#input-go-container {
+    display: flex;
+    /* Keeps the input and go button together */
+}
+
+
+/* Centers the <h1> text horizontally */
+h1 {
+    text-align: center;
+}
+
+
+/* Style for the container that includes the verse number form elements */
+.verse-form-container {
+    display: flex;
+    justify-content: center;
+    /* Centers all items on the horizontal line */
+    align-items: center;
+    /* Aligns items vertically */
+    flex-wrap: wrap;
+    /* Allows items to wrap onto the next line if space requires */
+}
+
+/* Specific styling for elements within .verse-form-container to ensure alignment */
+.verse-form-container label,
+.verse-form-container input,
+.verse-form-container button {
+    margin: 5px;
+    /* Adds a small margin around each item for spacing */
+}
+
+/* Ensuring the form itself is centered within its container */
+.verse-form-container {
+    width: 100%;
+    /* Span the full width */
+    max-width: 600px;
+    /* Optional: Restrict the maximum width if necessary */
+    margin: 0 auto;
+    /* Horizontally center the form in its parent container */
+}
+
+#verseDetails {
+    display: flex;
+    flex-direction: column;
+    /* Organizes children vertically */
+    align-items: center;
+    /* Centers children horizontally within the container */
+    justify-content: center;
+    /* Centers children vertically if there's extra space */
+    text-align: center;
+    /* Ensures text within is centered if it doesn't fill the full width */
+    width: 100%;
+    /* Takes full width to ensure centering works across all child elements */
+    margin-top: 20px;
+    /* Adds some top margin for spacing from preceding elements */
 }

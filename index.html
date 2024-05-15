@@ -57,14 +57,14 @@
     </script>
 
 
-    <div>
-
+    <div class="verse-form-container">
         <label for="verseNumber">Type the verse number (1 to 423) you would like to study:</label>
         <input type="number" id="verseNumber" min="1" max="423" required>
         <button onclick="fetchVerseDetails()">Enter</button>
-
-        <div id="verseDetails"></div>
     </div>
+    <div id="verseDetails"></div> <!-- Keeping the verse details outside the form container for clarity -->
+
+
 
     <!-- Scripts at the end of the body for better loading performance -->
     <script src="js/PDFViewer.js"></script> <!-- If still needed for other PDF viewing instances -->
