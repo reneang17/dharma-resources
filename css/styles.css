@@ -263,6 +263,15 @@ h3 {
     /* Uses dark green for heading text */
 }
 
+#chapter-select {
+    outline: none;
+    /* Removes the default focus outline */
+    box-shadow: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    /* Removes any default box shadows */
+}
+
 button {
     background-color: var(--darkblu);
     /* Dark green background for buttons */
