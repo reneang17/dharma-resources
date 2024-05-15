@@ -5,11 +5,36 @@
     padding: 0;
 }
 
+:root {
+    --darkblue: #202426;
+    --darkgreen: #6C733D;
+    --lightgreen: #9DA65D;
+    --darkgray: #8C8C88;
+    --lightgray: #F2F2F2;
+}
+
 html,
 body {
     width: 100%;
     height: 100%;
-    font-family: Arial, sans-serif;
+
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    /* Sets Raleway as the default body font */
+}
+
+h1,
+h2,
+h3,
+button,
+input {
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    /* Sets Bitter for all heading tags */
 }
 
 div {
@@ -67,7 +92,7 @@ canvas {
     /* Padding above and below the controls */
     margin-bottom: 2px;
     /* Space below the controls before the PDF content */
-    background: #f9f9f9;
+    background: none;
     /* Light background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* Subtle shadow */
@@ -137,7 +162,7 @@ canvas {
     /* Padding above and below the controls */
     margin-bottom: 2px;
     /* Space below the controls before the PDF content */
-    background: #f9f9f9;
+    background: none;
     /* Light background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* Subtle shadow */
@@ -204,4 +229,43 @@ h1 {
     /* Takes full width to ensure centering works across all child elements */
     margin-top: 20px;
     /* Adds some top margin for spacing from preceding elements */
+}
+
+
+body {
+    background-color: var(--darkblue);
+    /* Uses light gray as the background color */
+    color: var(--lightgreen);
+    /* Sets dark blue as the default text color */
+}
+
+h1,
+h2,
+h3 {
+    color: var(--darkgreen);
+    /* Uses dark green for heading text */
+}
+
+button {
+    background-color: var(--darkblu);
+    /* Dark green background for buttons */
+    color: var(--darkblu);
+    /* Light gray text on buttons for contrast */
+    border: 1px solid var(--darkgray);
+    /* Optional: removes border */
+}
+
+input {
+    background-color: var(--lightgray);
+    /* Light gray background for input fields */
+    color: var(--darkblue);
+    /* Dark blue text in input fields */
+    border: 1px solid var(--darkgray);
+    /* Dark gray border for inputs */
+}
+
+/* Style for links or other elements as needed */
+a {
+    color: var(--lightgreen);
+    /* Light green text for links */
 }
