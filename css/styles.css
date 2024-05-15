@@ -58,17 +58,39 @@ canvas {
 
 
 #navigation-controls {
+    display: flex;
+    align-items: center;
+    /* Vertically centers all child elements */
     width: 100%;
+    /* Full width to use the entire container space */
+    padding: 2px 0;
+    /* Padding above and below the controls */
+    margin-bottom: 2px;
+    /* Space below the controls before the PDF content */
+    background: #f9f9f9;
+    /* Light background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+#navigation-controls>* {
+    flex-grow: 1;
+    /* Makes each child (button, input group) grow to fill the space evenly */
+    text-align: center;
+    /* Centers the text of each child */
     display: flex;
     justify-content: center;
-    padding: 2px 0;
-    margin-bottom: 2px;
-    /* Adds space between the controls and the PDF */
-    background: #f9f9f9;
-    /* Light background to distinguish the controls area */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow for depth */
+    /* Center the content of buttons and input-group */
+    align-items: center;
+    /* Align the content vertically */
 }
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    /* Distributes space between input and button */
+}
+
 
 /* CSS for dynamically generated PDF viewers in comments */
 .pdf-viewer-comments-container {
@@ -105,13 +127,26 @@ canvas {
 
 #navigation-controls {
     display: flex;
-    justify-content: space-between;
-    /* Distributes space evenly between elements */
+    justify-content: space-evenly;
+    /* Evenly distributes spacing between and around elements */
+    align-items: center;
+    /* Vertically centers all child elements */
     width: 100%;
+    /* Full width to use the entire container space */
     padding: 2px 0;
+    /* Padding above and below the controls */
     margin-bottom: 2px;
+    /* Space below the controls before the PDF content */
     background: #f9f9f9;
+    /* Light background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    /* Vertically aligns items within the group */
 }
 
 #input-go-container {
