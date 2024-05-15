@@ -46,6 +46,7 @@ class PDFViewer {
         document.getElementById(this.controls.prevPage).addEventListener('click', () => this.onPrevPage());
         document.getElementById(this.controls.nextPage).addEventListener('click', () => this.onNextPage());
         document.getElementById(this.controls.goPage).addEventListener('click', () => this.gotoPage());
+        document.getElementById('chapter-select').addEventListener('change', (e) => this.gotoChapter(e.target.value));
         document.getElementById(this.controls.downloadPDF).addEventListener('click', () => this.downloadPDF());
     }
 
@@ -79,8 +80,15 @@ class PDFViewer {
         }
     }
 
+    gotoChapter(pageNumber) {
+        const num = parseInt(pageNumber);
+        this.pageNum = num;  // Update the current page number
+        this.renderPage(num);
+    }
+
     downloadPDF() {
         const url = this.controls.pdfUrl + '#page=' + this.pageNum;
         window.open(url, '_blank');
     }
 }
+

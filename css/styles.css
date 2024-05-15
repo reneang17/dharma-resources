@@ -31,7 +31,8 @@ label,
 p,
 a,
 span,
-div {
+div,
+select {
     font-size: 1rem;
     /* 1rem equals the font-size of the root, which is 16px */
 }
@@ -46,7 +47,8 @@ h1,
 h2,
 h3,
 button,
-input {
+input,
+select {
     font-family: 'Bitter', serif;
     font-weight: 300;
     /* Sets Bitter for all heading tags */
@@ -270,7 +272,8 @@ button {
     /* Optional: removes border */
 }
 
-input {
+input,
+select {
     background-color: var(--darkblu);
     /* Light gray background for input fields */
     color: var(--lightgreen);
@@ -355,4 +358,8 @@ footer {
     width: 100%;
     height: 100px;
     /* Adjust the height as necessary */
+}
+
+#chapter-select {
+    max-width: 50px;
 }
