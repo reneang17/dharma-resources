@@ -87,7 +87,15 @@ class CommentsViewer {
         }
     }
 
+
     openInNewTab() {
-        window.open(this.pdfUrl + '#page=' + this.pageNum, '_blank');
+        // Remove any existing #page tag from the URL
+        const cleanUrl = this.pdfUrl.replace(/#page=\d+/, '');
+
+        // Append the new #page tag
+        const newUrl = cleanUrl + '#page=' + this.pageNum;
+
+        // Open the new URL in a new tab
+        window.open(newUrl, '_blank');
     }
 }
