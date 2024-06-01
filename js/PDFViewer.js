@@ -51,10 +51,17 @@ class PDFViewer {
     }
 
     onRandomPage() {
-        const randomNumber = Math.floor(Math.random() * (this.randomMax - this.randomMin + 1)) + this.randomMin;
+        const excludedNumbers = [40, 46, 60, 66, 72, 100, 116, 136, 142];
+        let randomNumber;
+
+        do {
+            randomNumber = Math.floor(Math.random() * (this.randomMax - this.randomMin + 1)) + this.randomMin;
+        } while (excludedNumbers.includes(randomNumber));
+
         this.pageNum = randomNumber;  // Update the current page number
         this.renderPage(randomNumber);
     }
+
 
     onPrevPage() {
         if (this.pageNum <= this.minPageNum) {
