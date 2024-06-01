@@ -43,7 +43,7 @@ function displayVerseDetails(verse) {
         if (url.includes('.pdf')) {
             htmlContent += `<li>${ref} <label class="switch toggle-button"><input type="checkbox" onchange="togglePDF(this.checked, '${url}', '${viewerId}')"><span class="slider round"></span></label><div id="${viewerId}" class="pdf-viewer-container" style="display:none;"></div></li>`;
         } else {
-            htmlContent += `<li>${ref} <a href="${url}" target="_blank">(Link)</a></li>`;
+            htmlContent += `<li>${ref} <a href="${url}" target="_blank">(link)</a></li>`;
         }
     });
 
