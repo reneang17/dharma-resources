@@ -31,8 +31,8 @@ function displayVerseDetails(verse) {
     const detailsContainer = document.getElementById('verseDetails');
     let htmlContent = `
         <p>${verse.utter}</p>
-        <p>The historical context of this verse is provided by tipitaka.net at:</p>
-        <ul>${verse.context.map(url => `<li><a href="${url}" target="_blank">${url}</a></li>`).join('')}</ul>
+        <p>The history of this verse can be found at:</p>
+        <ul>${verse.context.map(url => `<li><a href="${url}" target="_blank">${"This link of tipitaka.net"}</a></li>`).join('')}</ul>
         <p>Available Ajahn Munindo's reflections on this verse:</p>
         <ul>
     `;
