@@ -32,23 +32,30 @@ function displayVerseDetails(verse) {
     let htmlContent = `
         <p>${verse.utter}</p>
         <ul>${verse.context.map(url => `<li><a href="${url}" target="_blank">${"The story of this(ese) verse(s) can be found at this link of tipitaka.net"}</a></li>`).join('')}</ul>
-        <p>Available Ajahn Munindo's reflections on this verse:</p>
-        <ul>
     `;
 
-    verse.refs.forEach((ref, index) => {
-        const url = verse.urls[index];
-        const viewerId = `pdf-viewer-${index}`;
-        if (url.includes('.pdf')) {
-            htmlContent += `<li>${ref} <label class="switch toggle-button"><input type="checkbox" onchange="togglePDF(this.checked, '${url}', '${viewerId}')"><span class="slider round"></span></label><div id="${viewerId}" class="pdf-viewer-container" style="display:none;"></div></li>`;
-        } else {
-            htmlContent += `<li>${ref} <a href="${url}" target="_blank">(link)</a></li>`;
-        }
-    });
+    if (verse.refs.length > 0) {
+        htmlContent += `
+            <p>Available Ajahn Munindo's reflections on this verse:</p>
+            <ul>
+        `;
 
-    htmlContent += `</ul>`;
+        verse.refs.forEach((ref, index) => {
+            const url = verse.urls[index];
+            const viewerId = `pdf-viewer-${index}`;
+            if (url.includes('.pdf')) {
+                htmlContent += `<li>${ref} <label class="switch toggle-button"><input type="checkbox" onchange="togglePDF(this.checked, '${url}', '${viewerId}')"><span class="slider round"></span></label><div id="${viewerId}" class="pdf-viewer-container" style="display:none;"></div></li>`;
+            } else {
+                htmlContent += `<li>${ref} <a href="${url}" target="_blank">(link)</a></li>`;
+            }
+        });
+
+        htmlContent += `</ul>`;
+    }
+
     detailsContainer.innerHTML = htmlContent;
 }
+
 
 
 // Function to toggle the PDF viewer based on switch state
