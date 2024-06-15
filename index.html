@@ -74,6 +74,8 @@
                         <option value="143">Craving [334-359]</option>
                         <option value="151">The Renunciate [360-382]</option>
                         <option value="159">Great Being [383-423]</option>
+                        <option value="173">A note on the text</option>
+                        <option value="181">License</option>
                     </select>
                 </div>
                 <button id="download-pdf">Open in new Tab</button>
@@ -86,15 +88,15 @@
                 const mainViewer = new PDFViewer('pdf-canvas', {
                     prevPage: 'prev-page',
                     nextPage: 'next-page',
-                    randomPage: 'random-page',  // Include the ID of the new button
+                    randomPage: 'random-page',
                     pageNum: 'page-num',
                     goPage: 'go-page',
                     downloadPDF: 'download-pdf',
                     pdfUrl: './ajahn_munindo_books/dhammapada-for-contemplation-5th-LARGE-WEB-2017-02-05.pdf',
                     minPage: 1,
-                    maxPage: 164,
+                    maxPage: 182,
                     randomMin: 21,
-                    randomMax: 154
+                    randomMax: 172
                 });
                 mainViewer.loadDocument(mainViewer.controls.pdfUrl);
                 mainViewer.setupEventListeners();
@@ -104,8 +106,11 @@
 
         <div class="verse-form-container">
             <label for="verseNumber">Type the verse number (1 to 423) you would like to study:</label>
-            <input type="number" id="verseNumber" min="1" max="423" required>
-            <button onclick="fetchVerseDetails()">Enter</button>
+            <form id="verseForm" onsubmit="fetchVerseDetails(); return false;">
+                <input type="number" id="verseNumber" min="1" max="423" required>
+                <button type="submit">Enter</button>
+            </form>
+
         </div>
         <div id="verseDetails"></div> <!-- Keeping the verse details outside the form container for clarity -->
 

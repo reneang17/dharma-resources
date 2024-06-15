@@ -11,7 +11,7 @@ class CommentsViewer {
             <div class="navigation-controls">
                 <button class="prev-page">Prev Page</button>
                 <button class="next-page">Next Page</button>
-                <input type="number" class="page-num" value="${this.initialPage}" min="1" max="164" size="3">
+                <input type="number" class="page-num" value="${this.initialPage}" min="1" size="3">
                 <button class="go-page">Go</button>
                 <button class="open-in-new-tab">Open in new Tab</button>
             </div>
@@ -24,10 +24,12 @@ class CommentsViewer {
         this.ctx = this.canvas.getContext('2d');
         this.pageNum = parseInt(this.initialPage);
 
-        pdfjsLib.getDocument(this.pdfUrl).promise.then(pdfDoc_ => {
-            this.pdfDoc = pdfDoc_;
-            this.renderPage(this.pageNum);
-        });
+        const pdfDoc = await pdfjsLib.getDocument(this.pdfUrl).promise;
+        this.pdfDoc = pdfDoc;
+        this.renderPage(this.pageNum);
+
+        const pageNumInput = this.container.querySelector('.page-num');
+        pageNumInput.max = pdfDoc.numPages;
 
         this.setupEventListeners();
     }
@@ -46,6 +48,14 @@ class CommentsViewer {
                 this.openInNewTab();
             }
         });
+
+        const pageNumInput = this.container.querySelector('.page-num');
+        pageNumInput.addEventListener('focus', () => pageNumInput.select());
+        pageNumInput.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                this.gotoPage();
+            }
+        });
     }
 
     async renderPage(num) {
@@ -62,6 +72,9 @@ class CommentsViewer {
         };
 
         await page.render(renderContext).promise;
+
+        // Update the input field with the current page number
+        this.container.querySelector('.page-num').value = num;
     }
 
     onPrevPage() {
@@ -84,9 +97,10 @@ class CommentsViewer {
         if (pageNumber >= 1 && pageNumber <= this.pdfDoc.numPages) {
             this.pageNum = pageNumber;
             this.renderPage(this.pageNum);
+        } else {
+            alert(`Invalid page number. Please enter a number between 1 and ${this.pdfDoc.numPages}.`);
         }
     }
-
 
     openInNewTab() {
         // Remove any existing #page tag from the URL

@@ -1,6 +1,10 @@
 
 async function fetchVerseDetails() {
     const verseInput = document.getElementById('verseNumber');
+    verseInput.addEventListener('focus', function (event) {
+        event.target.select();
+    });
+
     const verseId = verseInput.value;
     if (verseId < 1 || verseId > 423) {
         alert('Please enter a valid verse number between 1 and 423.');
@@ -20,6 +24,11 @@ async function fetchVerseDetails() {
         alert('Error fetching data. Please try again.');
     }
 }
+
+// Ensure the input field selects the text when focused
+document.getElementById('verseNumber').addEventListener('focus', function (event) {
+    event.target.select();
+});
 
 
 function displayVerseDetails(verse) {

@@ -7,9 +7,9 @@ class PDFViewer {
         this.pageNum = 1;
         this.pageRendering = false;
         this.minPageNum = controls.minPage || 1;
-        this.maxPageNum = controls.maxPage || 164;
+        this.maxPageNum = controls.maxPage || 182;
         this.randomMin = controls.randomMin || 21;  // Default minimum random page
-        this.randomMax = controls.randomMax || 154; // Default maximum random page
+        this.randomMax = controls.randomMax || 172; // Default maximum random page
     }
 
     async renderPage(num) {
@@ -46,6 +46,8 @@ class PDFViewer {
         document.getElementById(this.controls.prevPage).addEventListener('click', () => this.onPrevPage());
         document.getElementById(this.controls.nextPage).addEventListener('click', () => this.onNextPage());
         document.getElementById(this.controls.goPage).addEventListener('click', () => this.gotoPage());
+        document.getElementById(this.controls.pageNum).addEventListener('focus', () => this.onPageNumFocus());
+        document.getElementById(this.controls.pageNum).addEventListener('keydown', (event) => this.onPageNumKeydown(event));
         document.getElementById('chapter-select').addEventListener('change', (e) => this.gotoChapter(e.target.value));
         document.getElementById(this.controls.downloadPDF).addEventListener('click', () => this.downloadPDF());
     }
@@ -61,7 +63,6 @@ class PDFViewer {
         this.pageNum = randomNumber;  // Update the current page number
         this.renderPage(randomNumber);
     }
-
 
     onPrevPage() {
         if (this.pageNum <= this.minPageNum) {
@@ -84,6 +85,18 @@ class PDFViewer {
         if (pageNumber >= this.minPageNum && pageNumber <= Math.min(this.maxPageNum, this.pdfDoc.numPages)) {
             this.pageNum = pageNumber;
             this.renderPage(this.pageNum);
+        } else {
+            alert('Invalid page number. Valid pages range from 1 to 182.');
+        }
+    }
+
+    onPageNumFocus() {
+        document.getElementById(this.controls.pageNum).select();
+    }
+
+    onPageNumKeydown(event) {
+        if (event.key === 'Enter') {
+            this.gotoPage();
         }
     }
 
@@ -98,4 +111,3 @@ class PDFViewer {
         window.open(url, '_blank');
     }
 }
-
