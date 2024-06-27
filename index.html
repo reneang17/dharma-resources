@@ -16,225 +16,161 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
-
 </head>
 
 <body>
-
-    <div>
+    <div class="container">
         <header>
             <img src="assets/pexels-soumenmaity-634770.jpg" alt="" id="headerImage">
         </header>
-    </div>
-    <main>
 
-        <h1>Study the Dhammapada</h1>
-
-
-        <!--   <a href="teachings.html">Further study Dhammapada with Dorjé Lopön Dr. Hun Lye</a> -->
-
-        <div id="pdf-viewer-container">
-            <div id="navigation-controls">
-
-                <button id="random-page">Random</button>
-                <div class="input-group">
-                    <button id="prev-page">Prev</button>
-                    <button id="next-page">Next</button>
-                    <input type="number" id="page-num" value="1" min="1" max="164" size="3">
-                    <button id="go-page">Go</button>
-                    <select id="chapter-select">
-                        <option value="" disabled selected>Ch</option>
-                        <option value="1">Cover</option>
-                        <option value="7">Preface</option>
-                        <option value="17">Introduction</option>
-                        <option value="21">The Pairs [1-20]</option>
-                        <option value="27">Awareness [21-32]</option>
-                        <option value="31">The Mind [33-43]</option>
-                        <option value="35">Flowers[44-59]</option>
-                        <option value="41">The Foolish [60-75]</option>
-                        <option value="47">The Wise [76-89]</option>
-                        <option value="51">The Awakened One [90-99]</option>
-                        <option value="55">The Thousands [100-115]</option>
-                        <option value="61">Evil [116-128]</option>
-                        <option value="67">Aggression [129-145]</option>
-                        <option value="73">Old Age [146-156]</option>
-                        <option value="77">The Self [157-166]</option>
-                        <option value="81">The World [167-178]</option>
-                        <option value="85">The Buddha[179-196]</option>
-                        <option value="91">Happiness [197-208]</option>
-                        <option value="95">Affection [209-220]</option>
-                        <option value="101">Anger [221-234]</option>
-                        <option value="107">Pollution [235-255]</option>
-                        <option value="113">The Just [256-272]</option>
-                        <option value="119">The Path [273-289]</option>
-                        <option value="125">Various [290-305]</option>
-                        <option value="131">Hell [306-319]</option>
-                        <option value="137">The Elephant [320-333]</option>
-                        <option value="143">Craving [334-359]</option>
-                        <option value="151">The Renunciate [360-382]</option>
-                        <option value="159">Great Being [383-423]</option>
-                        <option value="173">A note on the text</option>
-                        <option value="181">License</option>
-                    </select>
+        <main class="main-content">
+            <div id="password-section">
+                <label for="password">Enter password to view the content:</label>
+                <div>
+                    <input type="password" id="password">
+                    <button onclick="checkPassword()">Submit</button>
                 </div>
-                <button id="download-pdf">Open in new Tab</button>
             </div>
-            <canvas id="pdf-canvas"></canvas>
-        </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const mainViewer = new PDFViewer('pdf-canvas', {
-                    prevPage: 'prev-page',
-                    nextPage: 'next-page',
-                    randomPage: 'random-page',
-                    pageNum: 'page-num',
-                    goPage: 'go-page',
-                    downloadPDF: 'download-pdf',
-                    pdfUrl: './ajahn_munindo_books/dhammapada-for-contemplation-5th-LARGE-WEB-2017-02-05.pdf',
-                    minPage: 1,
-                    maxPage: 182,
-                    randomMin: 21,
-                    randomMax: 172
-                });
-                mainViewer.loadDocument(mainViewer.controls.pdfUrl);
-                mainViewer.setupEventListeners();
-            });
-        </script>
+            <div id="protected-content" style="display:none;">
+                <h1>Study the Dhammapada</h1>
 
+                <div id="pdf-viewer-container">
+                    <div id="navigation-controls">
+                        <button id="random-page">Random</button>
+                        <div class="input-group">
+                            <button id="prev-page">Prev</button>
+                            <button id="next-page">Next</button>
+                            <input type="number" id="page-num" value="1" min="1" max="164" size="3">
+                            <button id="go-page">Go</button>
+                            <select id="chapter-select">
+                                <option value="" disabled selected>Ch</option>
+                                <option value="1">Cover</option>
+                                <option value="7">Preface</option>
+                                <option value="17">Introduction</option>
+                                <option value="21">The Pairs [1-20]</option>
+                                <option value="27">Awareness [21-32]</option>
+                                <option value="31">The Mind [33-43]</option>
+                                <option value="35">Flowers[44-59]</option>
+                                <option value="41">The Foolish [60-75]</option>
+                                <option value="47">The Wise [76-89]</option>
+                                <option value="51">The Awakened One [90-99]</option>
+                                <option value="55">The Thousands [100-115]</option>
+                                <option value="61">Evil [116-128]</option>
+                                <option value="67">Aggression [129-145]</option>
+                                <option value="73">Old Age [146-156]</option>
+                                <option value="77">The Self [157-166]</option>
+                                <option value="81">The World [167-178]</option>
+                                <option value="85">The Buddha[179-196]</option>
+                                <option value="91">Happiness [197-208]</option>
+                                <option value="95">Affection [209-220]</option>
+                                <option value="101">Anger [221-234]</option>
+                                <option value="107">Pollution [235-255]</option>
+                                <option value="113">The Just [256-272]</option>
+                                <option value="119">The Path [273-289]</option>
+                                <option value="125">Various [290-305]</option>
+                                <option value="131">Hell [306-319]</option>
+                                <option value="137">The Elephant [320-333]</option>
+                                <option value="143">Craving [334-359]</option>
+                                <option value="151">The Renunciate [360-382]</option>
+                                <option value="159">Great Being [383-423]</option>
+                            </select>
+                        </div>
+                        <button id="download-pdf">Open in new Tab</button>
+                    </div>
+                    <canvas id="pdf-canvas"></canvas>
+                </div>
 
-        <div class="verse-form-container">
-            <label for="verseNumber">Type the verse number (1 to 423) you would like to study:</label>
-            <form id="verseForm" onsubmit="fetchVerseDetails(); return false;">
-                <input type="number" id="verseNumber" min="1" max="423" required>
-                <button type="submit">Enter</button>
-            </form>
+                <div class="verse-form-container">
+                    <label for="verseNumber">Type the verse number (1 to 423) you would like to study:</label>
+                    <input type="number" id="verseNumber" min="1" max="423" required>
+                    <button onclick="fetchVerseDetails()">Enter</button>
+                </div>
+                <div id="verseDetails"></div> <!-- Keeping the verse details outside the form container for clarity -->
 
-        </div>
-        <div id="verseDetails"></div> <!-- Keeping the verse details outside the form container for clarity -->
+                <div style="margin-top: 120px;"></div> <!-- This div adds the empty space -->
+                <hr style="border: 1px solid; color: inherit; background-color: inherit; width: 70%; margin: 0 auto;">
 
+                <div class="license">
+                    <h2>About the license of distribution of the <em>Dhammapada Reflections Series</em> and <em>A
+                            Dhammapada for Contemplation</em> by Ajahn Munindo</h2>
+                    <p class="license">These publications are made available for free distribution by Aruno Publications
+                    </p>
+                    <p class="license"><em>Books:</em> A Dhammapada for Contemplation, Dhammapada Reflections Volume 1,
+                        Dhammapada Reflections Volume 2, Dhammapada Reflections Volume 3</p>
+                    <p class="license"><em>Download Originals:</em> These books are freely available for download.
+                        Please visit <a class="license"
+                            href="https://forestsangha.org/teachings/books/authors/ajahn-munindo?language=English">Forest
+                            Sangha</a> for direct downloads. Also, one can contact Aruna Ratanagiri Buddhist Monastery
+                        at <a class="license" href="https://ratanagiri.org.uk/contact">this link</a></p>
+                    <p class="license"><em>License:</em> These works are distributed under a <a class="license"
+                            href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons
+                            Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.</p>
+                    <p class="license"><em>Conditions:</em> Attribution: Credit "Ajahn Munindo" as the author and "Aruno
+                        Publications" as the publisher. Noncommercial: This GitHub page is non-commercial, intended
+                        solely for free distribution of these works. No Derivatives: The PDFs are provided as-is,
+                        without modifications, in compliance with the 'NoDerivatives' condition of the license.</p>
+                    <p class="license"><em>Quote:</em><br>"Sabbadānaṃ dhammadānaṃ jinati - The gift of Dhamma surpasses
+                        all other gifts."</p>
+                    <p class="license"><em>Please Note:</em><br>This project is created and maintained with the intent
+                        to facilitate access to these texts in the spirit of free sharing and non-commercial
+                        distribution. Any use of these materials should strictly adhere to the principles outlined by
+                        the Creative Commons license.</p>
+                </div>
 
-        <div style="margin-top: 120px;"></div> <!-- This div adds the empty space -->
-        <hr style="border: 1px solid; color: inherit; background-color: inherit; width: 70%; margin: 0 auto;">
+                <div class="license">
+                    <h2><em>About the license of the material in the links to http://www.ratanagiri.org.uk </em></h2>
+                    <p class="license"><em>Additional Resources:</em> For more resources and teachings, visit <a
+                            class="license" href="http://www.ratanagiri.org.uk">http://www.ratanagiri.org.uk</a>. The
+                        content on their website is available under a <a class="license"
+                            href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons
+                            Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. We are grateful to
+                        all contributors, including the developers and photographers like Chinch Gryniewicz and Gary
+                        Morrison, whose efforts support the Dhamma dissemination.</p>
+                    <p class="license"><em>Commitment to Free Distribution:</em> Like www.ratanagiri.org.uk, this
+                        project is committed to distributing Dhamma materials free of charge. We support and share this
+                        aspiration, and we request all users to honor and uphold this principle of non-commercial, free
+                        sharing of information. We only show links but do not copy any of their material at all but
+                        provide links to their website so you could read the related material there.</p>
+                </div>
 
+                <div class="license">
+                    <h2><em>About the license of the material in the links to https://www.tipitaka.net</em></h2>
+                    <p class="license"><em>Additional Resources:</em> We also include link to the historical context of
+                        the dhammapada verses <a class="license"
+                            href="https://www.tipitaka.net">https://www.tipitaka.net</a>. Who have all rights reserved
+                        of their material. That is why we only show links but do not copy any of their material at all
+                        but provide links to their website so you could read the related material there.</p>
+                    <p class="license"><em>Commitment to Free Distribution:</em> Like tipitaka.net, this project is
+                        committed to distributing Dhamma materials free of charge. We support and share this aspiration,
+                        and we request all users to honor and uphold this principle of non-commercial, free sharing of
+                        information.</p>
+                </div>
 
-        <div class="license">
-            <h2>About the license of distrubution of the <em>Dhammapada Reflections Series</em> and <em>A Dhammapada for
-                    Contemplation</em> by Ajahn Munindo</h2>
-            <p class="license">These publications are made available for free distribution by Aruno Publications</p>
+                <div class="license">
+                    <h2><em>About the credits and license of the photo used in this website</em></h2>
+                    <p class="license"> The picture was taken from pexels.com, specifically from <a class="license"
+                            href="https://www.pexels.com/photo/japan-suicide-forest-634770/">this link</a>. Please note
+                        that depicted content is protected by privacy, copyright or trademark rights. I use it in the
+                        terms explained in the terms explain at <a class="license"
+                            href="https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project#:~:text=Yes%2C%20all%20photos%20and%20videos,%2C%20product%2C%20or%20anywhere%20else.">this
+                            link</a>. In particular, here I explicitly state that the depicted work is not endorsing or
+                        taking part in this non-commercial website service.</p>
+                </div>
+            </div>
+        </main>
 
-            <p class="license"><em>Books:</em>
-                A Dhammapada for Contemplation, Dhammapada Reflections Volume 1, Dhammapada Reflections Volume 2,
-                Dhammapada
-                Reflections Volume 3
-            </p>
-
-            <p class="license"><em>Download Originals:</em>
-                These books are freely available for download. Please visit <a class="license"
-                    href="https://forestsangha.org/teachings/books/authors/ajahn-munindo?language=English">Forest
-                    Sangha</a> for direct
-                downloads. Also, one can contact Aruna Ratanagiri Buddhist Monastery at <a class="license"
-                    href="https://ratanagiri.org.uk/contact">this link</a>
-            </p>
-
-            <p class="license"><em>License:</em>
-                These works are distributed under a <a class="license"
-                    href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
-                    Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.
-            </p>
-
-            <p class="license"><em>Conditions:</em>
-                Attribution: Credit "Ajahn Munindo" as the author and "Aruno Publications" as the publisher.
-                Noncommercial:
-                This GitHub page is non-commercial, intended solely for free distribution of these works. No
-                Derivatives:
-                The PDFs are provided as-is, without modifications, in compliance with the 'NoDerivatives' condition of
-                the
-                license.
-            </p>
-
-
-            <p class="license"><em>Quote:</em><br>
-                "Sabbadānaṃ dhammadānaṃ jinati - The gift of Dhamma surpasses all other gifts."
-            </p>
-
-            <p class="license"><em>Please Note:</em><br>
-                This project is created and maintained with the intent to facilitate access to these texts in the spirit
-                of
-                free sharing and non-commercial distribution. Any use of these materials should strictly adhere to the
-                principles outlined by the Creative Commons license.
-            </p>
-        </div>
-
-        <div class="license">
-            <h2><em>About the license of the material in the links to http://www.ratanagiri.org.uk </em></h2>
-            <p class="license"><em>Additional Resources:</em> For more resources and teachings, visit <a class="license"
-                    href="http://www.ratanagiri.org.uk">http://www.ratanagiri.org.uk</a>. The content on their website
-                is available under a <a class="license"
-                    href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative
-                    Commons
-                    Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. We are grateful to all
-                contributors, including the developers and photographers like Chinch Gryniewicz and Gary Morrison, whose
-                efforts support the Dhamma dissemination.</p>
-
-            <p class="license"><em>Commitment to Free Distribution:</em> Like www.ratanagiri.org.uk, this project is
-                committed to
-                distributing Dhamma materials free of charge. We support and share this aspiration, and we request all
-                users
-                to honor and uphold this principle of non-commercial, free sharing of information. We only show links
-                but do
-                not copy any of their material
-                at all but provide links to their website so you could read the related material there. </p>
-        </div>
-
-
-        <div class="license">
-            <h2><em>About the license of the material in the links to https://www.tipitaka.net</em></h2>
-            <p class="license"><em>Additional Resources:</em> We also include link to the historical context of the
-                dhammapada verses <a class="license" href="https://www.tipitaka.net">https://www.tipitaka.net</a>. Who
-                have
-                all rights reserved of their material. That is why we only show links but do not copy any of their
-                material
-                at all but provide links to their website so you could read the related material there. </p>
-
-            <p class="license"><em>Commitment to Free Distribution:</em> Like tipitaka.net, this project is
-                committed to
-                distributing Dhamma materials free of charge. We support and share this aspiration, and we request all
-                users
-                to honor and uphold this principle of non-commercial, free sharing of information.</p>
-        </div>
-
-        <div class="license">
-            <h2><em>About the credits and license of the photo used in this website</em></h2>
-            <p class="license"> The picture was taken from pexels.com, specifically from <a class="license"
-                    href="https://www.pexels.com/photo/japan-suicide-forest-634770/">this link</a>.
-                Please note that depicted content is protected by privacy, copyright or trademark rights. I use it in
-                the
-                terms explained in the terms explain at <a class="license"
-                    href="https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project#:~:text=Yes%2C%20all%20photos%20and%20videos,%2C%20product%2C%20or%20anywhere%20else.">this
-                    link</a>. In particular, here I explicitly state that the he depicted work is not endorsing or
-                taking
-                part in this non-comersial website service.
-
-            </p>
-
-
-        </div>
-
-    </main>
-
-    <footer>
-        <div class="footer-image"></div>
-    </footer>
+        <footer>
+            <div class="footer-image"></div>
+        </footer>
+    </div>
 
     <!-- Scripts at the end of the body for better loading performance -->
     <script src="js/PDFViewer.js"></script> <!-- If still needed for other PDF viewing instances -->
     <script src="js/CommentsViewer.js"></script>
     <script src="js/tools.js"></script>
-
-
-
+    <script src="js/passwordProtection.js"></script> <!-- Include the new password protection script -->
 </body>
 
 </html>
