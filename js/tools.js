@@ -40,7 +40,7 @@ function displayVerseDetails(verse) {
     const detailsContainer = document.getElementById('verseDetails');
     let htmlContent = `
         <p>${verse.utter}</p>
-        <ul>${verse.context.map(url => `<li><a href="${url}" target="_blank">${"The story of this(ese) verse(s) can be found at this link of tipitaka.net"}</a></li>`).join('')}</ul>
+        <ul>${verse.context.map(url => `<li><a href="${url}" target="_blank">${"If the context/story of this(ese) verse(s) is known possibly it is freely provided by tipitaka.net at this link"}</a></li>`).join('')}</ul>
     `;
 
     if (verse.refs.length > 0) {
