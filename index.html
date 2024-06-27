@@ -27,10 +27,10 @@
         <main class="main-content">
             <div id="password-section">
                 <label for="password">Enter password to view the content:</label>
-                <div>
+                <form onsubmit="checkPassword(); return false;">
                     <input type="password" id="password">
-                    <button onclick="checkPassword()">Submit</button>
-                </div>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
 
             <div id="protected-content" style="display:none;">
@@ -238,17 +238,6 @@
                         part in this non-comersial website service.
 
                     </p>
-                </div>
-
-                <div class="license">
-                    <h2><em>About the credits and license of the photo used in this website</em></h2>
-                    <p class="license"> The picture was taken from pexels.com, specifically from <a class="license"
-                            href="https://www.pexels.com/photo/japan-suicide-forest-634770/">this link</a>. Please note
-                        that depicted content is protected by privacy, copyright or trademark rights. I use it in the
-                        terms explained in the terms explain at <a class="license"
-                            href="https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project#:~:text=Yes%2C%20all%20photos%20and%20videos,%2C%20product%2C%20or%20anywhere%20else.">this
-                            link</a>. In particular, here I explicitly state that the depicted work is not endorsing or
-                        taking part in this non-commercial website service.</p>
                 </div>
             </div>
         </main>

@@ -471,6 +471,7 @@ input:checked+.slider:before {
 
 
 
+
 .main-content {
     position: relative;
     min-height: calc(100vh - 100px);
