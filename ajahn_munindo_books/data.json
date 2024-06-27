@@ -114,14 +114,14 @@
             "./ajahn_munindo_books/Dhammapada%20Reflections%20Volume%203%20-%20Ajahn%20Munindo.pdf#page=90",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-vesakha-puja-the-right-amount"
         ],
-        "utter": "Verse 7 was NOT uttered together with other verse(s)."
+        "utter": "Verses [7, 8] were uttered together."
     },
     {
         "id": 8,
         "ch": "I. THE PAIRS",
         "verse": "8.",
         "context": [
-            "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=008"
+            "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=007"
         ],
         "refs": [
             "See pag. 14 of Dhammapada Reflections Vol. 1."
@@ -129,7 +129,7 @@
         "urls": [
             "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=31"
         ],
-        "utter": "Verse 8 was NOT uttered together with other verse(s)."
+        "utter": "Verses [7, 8] were uttered together."
     },
     {
         "id": 9,
@@ -140,18 +140,18 @@
         ],
         "refs": [],
         "urls": [],
-        "utter": "Verse 9 was NOT uttered together with other verse(s)."
+        "utter": "Verses [9, 10] were uttered together."
     },
     {
         "id": 10,
         "ch": "I. THE PAIRS",
         "verse": "10.",
         "context": [
-            "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=010"
+            "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=009"
         ],
         "refs": [],
         "urls": [],
-        "utter": "Verse 10 was NOT uttered together with other verse(s)."
+        "utter": "Verses [9, 10] were uttered together."
     },
     {
         "id": 11,
@@ -170,14 +170,14 @@
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-storytelling",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-seeing-the-real"
         ],
-        "utter": "Verse 11 was NOT uttered together with other verse(s)."
+        "utter": "Verses [11, 12] were uttered together."
     },
     {
         "id": 12,
         "ch": "I. THE PAIRS",
         "verse": "12.",
         "context": [
-            "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=012"
+            "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=011"
         ],
         "refs": [
             "See pag. 78 of Dhammapada Reflections Vol. 2.",
@@ -187,7 +187,7 @@
             "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=86",
             "https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-storytelling"
         ],
-        "utter": "Verse 12 was NOT uttered together with other verse(s)."
+        "utter": "Verses [11, 12] were uttered together."
     },
     {
         "id": 13,
@@ -198,14 +198,14 @@
         ],
         "refs": [],
         "urls": [],
-        "utter": "Verse 13 was NOT uttered together with other verse(s)."
+        "utter": "Verses [13, 14] were uttered together."
     },
     {
         "id": 14,
         "ch": "I. THE PAIRS",
         "verse": "14.",
         "context": [
-            "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=014"
+            "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=013"
         ],
         "refs": [
             "See pag. 86 of Dhammapada Reflections Vol. 1."
@@ -213,7 +213,7 @@
         "urls": [
             "./ajahn_munindo_books/Dhammapada-Reflections-Volume-1-Ajahn-Munindopdf.pdf#page=103"
         ],
-        "utter": "Verse 14 was NOT uttered together with other verse(s)."
+        "utter": "Verses [13, 14] were uttered together."
     },
     {
         "id": 15,
