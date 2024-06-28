@@ -1,9 +1,9 @@
 function checkPassword() {
     const passwordInput = document.getElementById('password').value;
-    const correctPassword = 'gate';
+    const correctPasswords = ['be kind to yourself', 'gate']; // Add your list of passwords here
     const content = document.getElementById('protected-content');
 
-    if (passwordInput === correctPassword) {
+    if (correctPasswords.includes(passwordInput)) {
         content.style.display = 'block';
         document.getElementById('password-section').style.display = 'none';
     } else {
