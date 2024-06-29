@@ -1,6 +1,11 @@
 
 # License Information
 
+## About the open source license of the code in this repo
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
+
+
 ## About the license of distribution of the *Dhammapada Reflections Series* and *A Dhammapada for Contemplation* by Ajahn Munindo
 
 These publications are made available for free distribution by Aruno Publications.
@@ -36,13 +41,6 @@ For more resources and teachings, visit [http://www.ratanagiri.org.uk](http://ww
 **Commitment to Free Distribution:**
 Like [www.ratanagiri.org.uk](http://www.ratanagiri.org.uk), this project is committed to distributing Dhamma materials free of charge. We support and share this aspiration, and we request all users to honor and uphold this principle of non-commercial, free sharing of information. We only show links but do not copy any of their material at all but provide links to their website so you could read the related material there.
 
-## About the license of the material in the links to [https://www.tipitaka.net](https://www.tipitaka.net)
-
-**Additional Resources:**
-We also include a link to the historical context of the dhammapada verses [https://www.tipitaka.net](https://www.tipitaka.net), who have all rights reserved for their material. That is why we only show links but do not copy any of their material at all but provide links to their website so you could read the related material there.
-
-**Commitment to Free Distribution:**
-Like [tipitaka.net](https://www.tipitaka.net), this project is committed to distributing Dhamma materials free of charge. We support and share this aspiration, and we request all users to honor and uphold this principle of non-commercial, free sharing of information.
 
 ## About the credits and license of the photo used in this website
 
