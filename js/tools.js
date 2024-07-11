@@ -39,9 +39,8 @@ function displayVerseDetails(verse) {
 
     const detailsContainer = document.getElementById('verseDetails');
     let htmlContent = `
-        <!--<p>${verse.utter}</p>
-        <ul>${verse.context.map(url => `<li><a href="${url}" target="_blank">${"The story of this verse(s) is freely provided by tipitaka.net at this link"}</a></li>`).join('')}</ul>
-        -->
+        <p>${verse.utter}</p>
+        <ul>${verse.context.map(url => `<li><a href="${url}" target="_blank">${"The story of this verse(s) is publicly provided by tipitaka.net at this link"}</a></li>`).join('')}</ul>
     `;
 
     if (verse.refs.length > 0) {
