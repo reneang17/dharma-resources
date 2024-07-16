@@ -358,8 +358,6 @@ footer {
 }
 
 .footer-image {
-    background-image: url('../assets/pexels-soumenmaity-634770 copy.jpg');
-    /* Path to your footer image */
     background-size: cover;
     /* Cover ensures the image covers the full area of the div without distortion */
     background-position: center bottom;
@@ -367,6 +365,16 @@ footer {
     width: 100%;
     height: 100px;
     /* Adjust the height as necessary */
+}
+
+.footer-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the image covers the full area of the div without distortion */
+    object-position: center bottom;
+    /* Centers the image and aligns it at the bottom */
+    display: block;
 }
 
 #chapter-select {
