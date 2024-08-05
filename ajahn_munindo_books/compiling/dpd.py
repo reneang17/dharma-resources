@@ -4,7 +4,7 @@ import json
 import subprocess
 
 #Full path to where the books are
-path = "./"
+path = "./ajahn_munindo_books/"
 
 
 #
