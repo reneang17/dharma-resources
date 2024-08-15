@@ -4,7 +4,11 @@ function setHeaderImage() {
 
     if (currentHour >= 6 && currentHour < 10) {
         headerImage.src = "assets/pexels-soumenmaity-634770_top.jpg"; // Replace with your morning image path
-    } else {
+    }
+    else if (currentHour >= 19) {
+        headerImage.src = "assets/pexels-photo-239107.jpeg";
+    }
+    else {
         headerImage.src = "assets/prayer-flags.jpg"; // Replace with your evening image path
     }
 }
