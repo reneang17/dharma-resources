@@ -29,6 +29,7 @@ def handle_exceptions(num):
     if num == "055": num = "054"
     if num == "059": num = "058"
     if num == "074": num = "073"
+    if num == "086": num = "085"
     if num in ["088","089"]: num = "087"
     if num == "103": num = "102"
     if num == "105": num = "104"

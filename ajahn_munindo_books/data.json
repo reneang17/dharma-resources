@@ -1206,18 +1206,18 @@
         "urls": [
             "./ajahn_munindo_books/Dhammapada_Reflections_Volume_2_-_Ajahn_Munindo.pdf#page=10"
         ],
-        "utter": "Verse 85 was NOT uttered together with other verse(s)."
+        "utter": "Verses [85, 86] were uttered together."
     },
     {
         "id": 86,
         "ch": "VI. THE WISE",
         "verse": "86.",
         "context": [
-            "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=086"
+            "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=085"
         ],
         "refs": [],
         "urls": [],
-        "utter": "Verse 86 was NOT uttered together with other verse(s)."
+        "utter": "Verses [85, 86] were uttered together."
     },
     {
         "id": 87,
