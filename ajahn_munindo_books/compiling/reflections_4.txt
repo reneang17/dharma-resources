@@ -44,10 +44,12 @@ https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-the-easy-life
 
 239.
 https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-death
+Wrong title, actual title: Perfect Freedom
 
 
 128.
 https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-perfect-freedom
+Wrong title, actual title: Death
 
 
 144.
@@ -68,6 +70,7 @@ https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-no-abiding-self
 
 1.
 https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-clearer-perspective-ctz99
+Wrong title, actual title: Understanding the Chaos
 
 
 51.
@@ -146,12 +149,13 @@ https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-consequences
 https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-viewing-the-world
 
 
-393.
-https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-viewing-the-world-de2ec778-86e1-4d78-b5d3-260dc08330c3
-
-
 131.
 https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-not-going-out-
+Wrong title, actual tittle Seeking Contentment (Copy), wrong verse, actual verse 131
+
+
+393.
+https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-not-going-out
 
 
 318.
@@ -645,7 +649,7 @@ https://ratanagiri.org.uk/teachings/dhammapada-reflections/full-moon-truly-benef
 
 
 129.
-https://ratanagiri.org.uk/teachings/dhammapada-reflections/new-moon-empathy
+https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-empathy
 
 
 151.
@@ -782,6 +786,7 @@ https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-inherent-security
 
 261.
 https://www.ratanagiri.org.uk/monthly-dhammapada/truthfulness
+Wrong title, actual title: training on truthfulness
 
 
 25.
