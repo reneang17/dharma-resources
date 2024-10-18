@@ -43,6 +43,6 @@ The picture was taken from pexels.com, specifically from [this link](https://www
 
 ## Everything else not listed above has an open source license as follows:
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
+We opt for an open source [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
 
 Pls create an issue if you have doubts. Thank you
