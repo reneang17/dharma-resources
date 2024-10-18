@@ -47,7 +47,7 @@ has all rights reserved of its material. That is why we only show links but do n
 material at all but provide public links to their website so you could read the related material
 there. 
 
-Our website has not endorsement, not association from [https://www.tipitaka.net/tipitaka/dhp/](https://www.tipitaka.net/tipitaka/dhp/). We are currently trying to contact them to let them know we include their links in our website.
+Our website has not endorsement, not association from [https://www.tipitaka.net/tipitaka/dhp/](https://www.tipitaka.net/tipitaka/dhp/). We are currently trying to contact them to let them know we include we link to their work in this website.
 </p>
 
 ## About the credits and license of the photo used in this website
