@@ -1,9 +1,9 @@
 
 # License Information
 
-## About the license of distribution of the *Dhammapada Reflections Series* and *A Dhammapada for Contemplation* by Ajahn Munindo
+## About the license of distribution of the *Dhammapada Reflections Series* and *A Dhammapada for Contemplation* by Ajahn Munindo used in this repo/website
 
-These publications are made available for free distribution by Aruno Publications.
+Thee publications are made available for free distribution by Aruno Publications.
 
 **Books:**
 - A Dhammapada for Contemplation ("./ajahn_munindo_books/dhammapada-for-contemplation-5th-LARGE-WEB-2017-02-05.pdf")
@@ -14,7 +14,7 @@ These publications are made available for free distribution by Aruno Publication
 **Download Originals:**
 These books are freely available for download. Please visit [Forest Sangha](https://forestsangha.org/teachings/books/authors/ajahn-munindo?language=English) for direct downloads. Also, one can contact Aruna Ratanagiri Buddhist Monastery at [this link](https://ratanagiri.org.uk/contact).
 
-**License:**
+***License or those books***
 These works are distributed under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](http://creativecommons.org/licenses/by-nc-nd/3.0/).
 
 **Conditions:**
