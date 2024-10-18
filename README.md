@@ -1,11 +1,6 @@
 
 # License Information
 
-## About the open source license of the code in this repo
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
-
-
 ## About the license of distribution of the *Dhammapada Reflections Series* and *A Dhammapada for Contemplation* by Ajahn Munindo
 
 These publications are made available for free distribution by Aruno Publications.
@@ -45,3 +40,7 @@ Like [www.ratanagiri.org.uk](http://www.ratanagiri.org.uk), this project is comm
 ## About the credits and license of the photo used in this website
 
 The picture was taken from pexels.com, specifically from [this link](https://www.pexels.com/photo/japan-suicide-forest-634770/). Please note that depicted content is protected by privacy, copyright or trademark rights. I use it in the terms explained in the terms explained at [this link](https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project#:~:text=Yes%2C%20all%20photos%20and%20videos,%2C%20product%2C%20or%20anywhere%20else.). In particular, here I explicitly state that the depicted work is not endorsing or taking part in this non-commercial website service.
+
+## Everything else not listed above has an open source license as follows:
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
