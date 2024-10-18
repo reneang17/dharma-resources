@@ -14,7 +14,7 @@ Thee publications are made available for free distribution by Aruno Publications
 **Download Originals:**
 These books are freely available for download. Please visit [Forest Sangha](https://forestsangha.org/teachings/books/authors/ajahn-munindo?language=English) for direct downloads. Also, one can contact Aruna Ratanagiri Buddhist Monastery at [this link](https://ratanagiri.org.uk/contact).
 
-***License or those books***
+**License or those books**
 These works are distributed under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](http://creativecommons.org/licenses/by-nc-nd/3.0/).
 
 **Conditions:**
@@ -36,6 +36,19 @@ For more resources and teachings, visit [http://www.ratanagiri.org.uk](http://ww
 **Commitment to Free Distribution:**
 Like [www.ratanagiri.org.uk](http://www.ratanagiri.org.uk), this project is committed to distributing Dhamma materials free of charge. We support and share this aspiration, and we request all users to honor and uphold this principle of non-commercial, free sharing of information. We only show links but do not copy any of their material at all but provide links to their website so you could read the related material there.
 
+## About the license of the material in the links to [http://www.ratanagiri.org.uk](http://www.ratanagiri.org.uk)
+
+
+## About the links we sharea from to the Dhammapada stories [https://www.tipitaka.net/tipitaka/dhp/](https://www.tipitaka.net/tipitaka/dhp/)
+In this website, for the sake of aiding the study of the dhammapada, we also include link to the historical context of the
+dhammapada verses from the following website [https://www.tipitaka.net/tipitaka/dhp/](https://www.tipitaka.net/tipitaka/dhp/).
+That webiste, [https://www.tipitaka.net/tipitaka/dhp/](https://www.tipitaka.net/tipitaka/dhp/), 
+has all rights reserved of its material. That is why we only show links but do not copy anyof their
+material at all but provide public links to their website so you could read the related material
+there. 
+
+Our website has not endorsement, not association from [https://www.tipitaka.net/tipitaka/dhp/](https://www.tipitaka.net/tipitaka/dhp/). We are currently trying to contact them to let them know we include their links in our website.
+</p>
 
 ## About the credits and license of the photo used in this website
 
@@ -46,3 +59,4 @@ The picture was taken from pexels.com, specifically from [this link](https://www
 We opt for an open source [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
 
 Pls create an issue if you have doubts. Thank you
+
