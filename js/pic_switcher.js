@@ -2,7 +2,7 @@ function setHeaderImage() {
     const headerImage = document.getElementById('headerImage');
     const currentHour = new Date().getHours();
 
-    if (currentHour >= 6 && currentHour < 10) {
+    if (currentHour >= 6 && currentHour < 12) {
         headerImage.src = "assets/pexels-soumenmaity-634770_top.jpg"; // Replace with your morning image path
     }
     else if (currentHour >= 19) {
