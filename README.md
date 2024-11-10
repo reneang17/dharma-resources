@@ -54,7 +54,7 @@ Our website has not endorsement, not association from [https://www.tipitaka.net/
 
 The picture was taken from pexels.com, specifically from [this link](https://www.pexels.com/photo/japan-suicide-forest-634770/). Please note that depicted content is protected by privacy, copyright or trademark rights. I use it in the terms explained in the terms explained at [this link](https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project#:~:text=Yes%2C%20all%20photos%20and%20videos,%2C%20product%2C%20or%20anywhere%20else.). In particular, here I explicitly state that the depicted work is not endorsing or taking part in this non-commercial website service.
 
-## Everything else not listed above has an open source license as follows:
+## Everything else not listed above has an MIT license
 
 We opt for an open source [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
 
