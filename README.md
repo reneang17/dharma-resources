@@ -56,7 +56,7 @@ Our website has not endorsement, not association from [https://www.tipitaka.net/
 
 The picture was taken from pexels.com, specifically from [this link](https://www.pexels.com/photo/japan-suicide-forest-634770/). Please note that depicted content is protected by privacy, copyright or trademark rights. I use it in the terms explained in the terms explained at [this link](https://help.pexels.com/hc/en-us/articles/360042295174-What-is-the-license-of-the-photos-and-videos-on-Pexels.). In particular, here I explicitly state that the depicted work is not endorsing or taking part in this non-commercial website service.
 
-## Attribution of license of the PDF.js software used.
+## Attribution of license of the PDF.js software used
 
 This project uses PDF.js, which is licensed under the Apache License 2.0. See the respective license in this repor for details.
 
