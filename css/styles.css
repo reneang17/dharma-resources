@@ -1,28 +1,27 @@
 /* CSS - styles.css */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --darkblue: #202426;
-    --darkgreen: #6C733D;
-    --lightgreen: #9DA65D;
-    --darkgray: #8C8C88;
-    --lightgray: #F2F2F2;
+  --darkblue: #202426;
+  --darkgreen: #6c733d;
+  --lightgreen: #9da65d;
+  --darkgray: #8c8c88;
+  --lightgray: #f2f2f2;
 }
 
 html {
-    font-size: 16px;
-    /* This sets the base font size for the whole page */
+  font-size: 16px;
+  /* This sets the base font size for the whole page */
 }
 
 html,
 body {
-    width: 100%;
-    height: 100%;
-
+  width: 100%;
+  height: 100%;
 }
 
 button,
@@ -33,14 +32,14 @@ a,
 span,
 div,
 select {
-    font-size: 1rem;
-    /* 1rem equals the font-size of the root, which is 16px */
+  font-size: 1rem;
+  /* 1rem equals the font-size of the root, which is 16px */
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    /* Sets Raleway as the default body font */
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  /* Sets Raleway as the default body font */
 }
 
 h1,
@@ -49,438 +48,423 @@ h3,
 button,
 input,
 select {
-    font-family: 'Bitter', serif;
-    font-weight: 300;
-    /* Sets Bitter for all heading tags */
+  font-family: "Bitter", serif;
+  font-weight: 300;
+  /* Sets Bitter for all heading tags */
 }
 
 div {
-    width: 100%;
-    /* Ensures that each div uses the full available width */
+  width: 100%;
+  /* Ensures that each div uses the full available width */
 }
 
 header {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 #headerImage {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #randomPageLink {
-    display: none;
+  display: none;
 }
 
 #pdf-viewer-container {
-    width: 100vw;
-    /* Limits the width to 90% of the viewport width */
-    max-width: 8in;
-    /* Keeps the maximum width at 8 inches */
-    height: auto;
-    /* Adjust height dynamically based on content */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Center items horizontally within the container */
-    margin: 2px auto;
-    /* Center the container on the page and provide vertical spacing */
-    padding: 2px;
-    /* Padding to prevent content from touching the container edges */
+  width: 100vw;
+  /* Limits the width to 90% of the viewport width */
+  max-width: 8in;
+  /* Keeps the maximum width at 8 inches */
+  height: auto;
+  /* Adjust height dynamically based on content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center items horizontally within the container */
+  margin: 2px auto;
+  /* Center the container on the page and provide vertical spacing */
+  padding: 2px;
+  /* Padding to prevent content from touching the container edges */
 }
 
 canvas {
-    width: 100%;
-    max-width: none; // Make sure canvas is not being constrained or stretched
-    height: auto;
-    max-height: none;
-    border: 1px solid black;
+  width: 100%;
+  max-width: none; // Make sure canvas is not being constrained or stretched
+  height: auto;
+  max-height: none;
+  border: 1px solid black;
 }
-
 
 #navigation-controls {
-    display: flex;
-    align-items: center;
-    /* Vertically centers all child elements */
-    width: 100%;
-    /* Full width to use the entire container space */
-    padding: 2px 0;
-    /* Padding above and below the controls */
-    margin-bottom: 2px;
-    /* Space below the controls before the PDF content */
-    background: none;
-    /* Light background */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow */
+  display: flex;
+  align-items: center;
+  /* Vertically centers all child elements */
+  width: 100%;
+  /* Full width to use the entire container space */
+  padding: 2px 0;
+  /* Padding above and below the controls */
+  margin-bottom: 2px;
+  /* Space below the controls before the PDF content */
+  background: none;
+  /* Light background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
 }
 
-#navigation-controls>* {
-    flex-grow: 1;
-    /* Makes each child (button, input group) grow to fill the space evenly */
-    text-align: center;
-    /* Centers the text of each child */
-    display: flex;
-    justify-content: center;
-    /* Center the content of buttons and input-group */
-    align-items: center;
-    /* Align the content vertically */
+#navigation-controls > * {
+  flex-grow: 1;
+  /* Makes each child (button, input group) grow to fill the space evenly */
+  text-align: center;
+  /* Centers the text of each child */
+  display: flex;
+  justify-content: center;
+  /* Center the content of buttons and input-group */
+  align-items: center;
+  /* Align the content vertically */
 }
 
 .input-group {
-    display: flex;
-    justify-content: space-between;
-    /* Distributes space between input and button */
+  display: flex;
+  justify-content: space-between;
+  /* Distributes space between input and button */
 }
-
 
 /* CSS for dynamically generated PDF viewers in comments */
 .pdf-viewer-comments-container {
-    width: 100%;
-    /* Adjusts to the content within up to the maximum width */
-    max-width: 8in;
-    /* Maximum width is 8 inches */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Center items horizontally */
-    margin: 2px auto;
-    /* Center the container on the page */
-    padding: 2px;
-    /* Padding around the container */
-    box-sizing: border-box;
-    /* Includes padding and border in the width */
+  width: 100%;
+  /* Adjusts to the content within up to the maximum width */
+  max-width: 8in;
+  /* Maximum width is 8 inches */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center items horizontally */
+  margin: 2px auto;
+  /* Center the container on the page */
+  padding: 2px;
+  /* Padding around the container */
+  box-sizing: border-box;
+  /* Includes padding and border in the width */
 }
 
 .pdf-viewer-comments-container canvas {
-    width: 100%;
-    /* Canvas takes full width of its container */
-    max-width: 100%;
-    /* Ensures canvas is not wider than the container */
-    height: auto;
-    /* Height adjusts automatically to maintain aspect ratio */
-    border: 1px solid black;
-    /* Border around the canvas */
-    box-sizing: border-box;
-    /* Ensures border is included in the width calculation */
+  width: 100%;
+  /* Canvas takes full width of its container */
+  max-width: 100%;
+  /* Ensures canvas is not wider than the container */
+  height: auto;
+  /* Height adjusts automatically to maintain aspect ratio */
+  border: 1px solid black;
+  /* Border around the canvas */
+  box-sizing: border-box;
+  /* Ensures border is included in the width calculation */
 }
 
-
-
 #navigation-controls {
-    display: flex;
-    justify-content: space-evenly;
-    /* Evenly distributes spacing between and around elements */
-    align-items: center;
-    /* Vertically centers all child elements */
-    width: 100%;
-    /* Full width to use the entire container space */
-    padding: 2px 0;
-    /* Padding above and below the controls */
-    margin-bottom: 2px;
-    /* Space below the controls before the PDF content */
-    background: none;
-    /* Light background */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow */
+  display: flex;
+  justify-content: space-evenly;
+  /* Evenly distributes spacing between and around elements */
+  align-items: center;
+  /* Vertically centers all child elements */
+  width: 100%;
+  /* Full width to use the entire container space */
+  padding: 2px 0;
+  /* Padding above and below the controls */
+  margin-bottom: 2px;
+  /* Space below the controls before the PDF content */
+  background: none;
+  /* Light background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
 }
 
 .input-group {
-    display: flex;
-    align-items: center;
-    /* Vertically aligns items within the group */
+  display: flex;
+  align-items: center;
+  /* Vertically aligns items within the group */
 }
 
 #input-go-container {
-    display: flex;
-    /* Keeps the input and go button together */
+  display: flex;
+  /* Keeps the input and go button together */
 }
-
 
 /* Centers the <h1> text horizontally */
 h1 {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* Style for the container that includes the verse number form elements */
 .verse-form-container {
-    display: flex;
-    justify-content: center;
-    /* Centers all items on the horizontal line */
-    align-items: center;
-    /* Aligns items vertically */
-    flex-wrap: wrap;
-    /* Allows items to wrap onto the next line if space requires */
+  display: flex;
+  justify-content: center;
+  /* Centers all items on the horizontal line */
+  align-items: center;
+  /* Aligns items vertically */
+  flex-wrap: wrap;
+  /* Allows items to wrap onto the next line if space requires */
 }
 
 /* Specific styling for elements within .verse-form-container to ensure alignment */
 .verse-form-container label,
 .verse-form-container input,
 .verse-form-container button {
-    margin: 5px;
-    /* Adds a small margin around each item for spacing */
+  margin: 5px;
+  /* Adds a small margin around each item for spacing */
 }
 
 /* Ensuring the form itself is centered within its container */
 .verse-form-container {
-    width: 100%;
-    /* Span the full width */
-    max-width: 600px;
-    /* Optional: Restrict the maximum width if necessary */
-    margin: 0 auto;
-    /* Horizontally center the form in its parent container */
+  width: 100%;
+  /* Span the full width */
+  max-width: 600px;
+  /* Optional: Restrict the maximum width if necessary */
+  margin: 0 auto;
+  /* Horizontally center the form in its parent container */
 }
 
 #verseDetails {
-    display: flex;
-    flex-direction: column;
-    /* Organizes children vertically */
-    align-items: center;
-    /* Centers children horizontally within the container */
-    justify-content: center;
-    /* Centers children vertically if there's extra space */
-    text-align: center;
-    /* Ensures text within is centered if it doesn't fill the full width */
-    width: 100%;
-    /* Takes full width to ensure centering works across all child elements */
-    margin-top: 20px;
-    /* Adds some top margin for spacing from preceding elements */
+  display: flex;
+  flex-direction: column;
+  /* Organizes children vertically */
+  align-items: center;
+  /* Centers children horizontally within the container */
+  justify-content: center;
+  /* Centers children vertically if there's extra space */
+  text-align: center;
+  /* Ensures text within is centered if it doesn't fill the full width */
+  width: 100%;
+  /* Takes full width to ensure centering works across all child elements */
+  margin-top: 20px;
+  /* Adds some top margin for spacing from preceding elements */
 }
 
-
 body {
-    background-color: var(--darkblue);
-    /* Uses light gray as the background color */
-    color: var(--lightgreen);
-    /* Sets dark blue as the default text color */
+  background-color: var(--darkblue);
+  /* Uses light gray as the background color */
+  color: var(--lightgreen);
+  /* Sets dark blue as the default text color */
 }
 
 h1,
 h2,
 h3 {
-    color: var(--darkgreen);
-    /* Uses dark green for heading text */
+  color: var(--darkgreen);
+  /* Uses dark green for heading text */
 }
 
 #chapter-select {
-    outline: none;
-    /* Removes the default focus outline */
-    box-shadow: none;
-    -webkit-appearance: none;
-    -webkit-border-radius: 0px;
-    /* Removes any default box shadows */
+  outline: none;
+  /* Removes the default focus outline */
+  box-shadow: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  /* Removes any default box shadows */
 }
 
 button {
-    background-color: var(--darkblu);
-    /* Dark green background for buttons */
-    color: var(--darkblu);
-    /* Light gray text on buttons for contrast */
-    border: 1px solid var(--darkgray);
-    /* Optional: removes border */
+  background-color: var(--darkblu);
+  /* Dark green background for buttons */
+  color: var(--darkblu);
+  /* Light gray text on buttons for contrast */
+  border: 1px solid var(--darkgray);
+  /* Optional: removes border */
 }
 
 input,
 select {
-    background-color: var(--darkblu);
-    /* Light gray background for input fields */
-    color: var(--lightgreen);
-    /* Dark blue text in input fields */
-    border: 1px solid var(--darkgray);
-    /* Dark gray border for inputs */
+  background-color: var(--darkblu);
+  /* Light gray background for input fields */
+  color: var(--lightgreen);
+  /* Dark blue text in input fields */
+  border: 1px solid var(--darkgray);
+  /* Dark gray border for inputs */
 }
 
 /* Style for links or other elements as needed */
 a {
-    color: var(--lightgreen);
-    /* Light green text for links */
+  color: var(--lightgreen);
+  /* Light green text for links */
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: 400;
-    /* 32px if the base size is 16px */
+  font-size: 2.5rem;
+  font-weight: 400;
+  /* 32px if the base size is 16px */
 }
 
 /* Style for the licensing information section */
 .license {
-    width: 80%;
-    /* Sets the width to 80% of its parent container */
-    max-width: 960px;
-    /* Ensures it doesn't get too wide on larger screens */
-    margin: 0 auto;
-    /* Centers the div horizontally and adds zero vertical margin */
-    font-size: 0.8rem;
-    /* Sets a uniform text size for all text within the div */
-    text-align: justify;
-    /* Justifies the text for better readability in larger paragraphs */
-    padding: 5px;
-    /* Adds padding inside the div for spacing around the content */
-    color: var(--lightgreen);
+  width: 80%;
+  /* Sets the width to 80% of its parent container */
+  max-width: 960px;
+  /* Ensures it doesn't get too wide on larger screens */
+  margin: 0 auto;
+  /* Centers the div horizontally and adds zero vertical margin */
+  font-size: 0.8rem;
+  /* Sets a uniform text size for all text within the div */
+  text-align: justify;
+  /* Justifies the text for better readability in larger paragraphs */
+  padding: 5px;
+  /* Adds padding inside the div for spacing around the content */
+  color: var(--lightgreen);
 }
 
 .license h2 {
-    font-size: 0.8rem;
-    /* Slightly larger font size for sub-headings */
-    margin-top: 0.5rem;
-    /* Adds top margin for spacing between sections */
-    text-align: center;
-    /* Centers the sub-heading text */
-    color: var(--lightgreen);
+  font-size: 0.8rem;
+  /* Slightly larger font size for sub-headings */
+  margin-top: 0.5rem;
+  /* Adds top margin for spacing between sections */
+  text-align: center;
+  /* Centers the sub-heading text */
+  color: var(--lightgreen);
 }
 
 .license a {
-    color: var(--lightgreen);
-    /* Uses the light green color for links, assuming you have this variable set */
-    text-decoration: none;
-    /* Optional: Removes underline from links */
+  color: var(--lightgreen);
+  /* Uses the light green color for links, assuming you have this variable set */
+  text-decoration: none;
+  /* Optional: Removes underline from links */
 }
 
 .license a:hover {
-    text-decoration: underline;
-    /* Adds underline on hover for better user interaction feedback */
+  text-decoration: underline;
+  /* Adds underline on hover for better user interaction feedback */
 }
 
 .license p,
 .license em {
-    margin-bottom: 0.5rem;
-    /* Adds bottom margin to paragraphs and emphasized text for spacing */
+  margin-bottom: 0.5rem;
+  /* Adds bottom margin to paragraphs and emphasized text for spacing */
 }
 
-
-
-
 .footer-image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    /* Ensures the image covers the full area of the div without distortion */
-    object-position: center bottom;
-    /* Centers the image and aligns it at the bottom */
-    display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  /* Ensures the image covers the full area of the div without distortion */
+  object-position: center bottom;
+  /* Centers the image and aligns it at the bottom */
+  display: block;
 }
 
 #chapter-select {
-    max-width: 50px;
+  max-width: 50px;
 }
-
-
 
 /* Toggle Switch Styles */
 .toggle-button {
-    display: inline-block;
-    position: relative;
-    width: 50px;
-    /* Reduced width for better alignment */
-    height: 22px;
-    /* Adjusted to text height */
-    background-color: var(--darkblue);
-    border: 1px solid var(--darkgray);
-    border-radius: 22px;
-    /* Full height to make it circular */
-    vertical-align: middle;
-    /* Aligns the switch with the text */
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  /* Reduced width for better alignment */
+  height: 22px;
+  /* Adjusted to text height */
+  background-color: var(--darkblue);
+  border: 1px solid var(--darkgray);
+  border-radius: 22px;
+  /* Full height to make it circular */
+  vertical-align: middle;
+  /* Aligns the switch with the text */
 }
 
 .toggle-button input {
-    opacity: 0;
-    width: 0;
-    height: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--darkblue);
-    transition: .4s;
-    border-radius: 22px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--darkblue);
+  transition: 0.4s;
+  border-radius: 22px;
 }
 
 .slider:before {
-    position: absolute;
-    content: "";
-    height: 18px;
-    /* Slightly smaller than the switch height */
-    width: 18px;
-    /* Square shape */
-    left: 2px;
-    /* Small offset from the edge */
-    bottom: 2px;
-    /* Centered vertically */
-    background-color: var(--lightgreen);
-    transition: .4s;
-    border-radius: 50%;
+  position: absolute;
+  content: "";
+  height: 18px;
+  /* Slightly smaller than the switch height */
+  width: 18px;
+  /* Square shape */
+  left: 2px;
+  /* Small offset from the edge */
+  bottom: 2px;
+  /* Centered vertically */
+  background-color: var(--lightgreen);
+  transition: 0.4s;
+  border-radius: 50%;
 }
 
-input:checked+.slider {
-    background-color: var(--darkgreen);
+input:checked + .slider {
+  background-color: var(--darkgreen);
 }
 
-input:checked+.slider:before {
-    transform: translateX(28px);
-    /* Adjusted to match the new width */
+input:checked + .slider:before {
+  transform: translateX(28px);
+  /* Adjusted to match the new width */
 }
 
 .slider.round {
-    border-radius: 22px;
+  border-radius: 22px;
 }
 
 .slider.round:before {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 #password-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: var(--darkblue);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--darkblue);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #password-section div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #password-section label,
 #password-section input,
 #password-section button {
-    margin: 5px;
+  margin: 5px;
 }
 
-
-
-
 .container {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-content {
-    flex: 1;
+  flex: 1;
 }
 
 footer {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .footer-image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
