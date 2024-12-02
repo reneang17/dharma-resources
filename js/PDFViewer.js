@@ -97,9 +97,9 @@ class PDFViewer {
 
     if (Math.abs(deltaX) > swipeThreshold) {
       if (deltaX > 0) {
-        this.onNextPage(); // Swipe right (next page)
+        this.onPrevPage(); // Swipe right (next page)
       } else {
-        this.onPrevPage(); // Swipe left (previous page)
+        this.onNextPage(); // Swipe left (previous page)
       }
     }
   }
