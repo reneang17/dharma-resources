@@ -11,9 +11,9 @@ class PDFViewer {
     this.randomMin = controls.randomMin || 21; // Default minimum random page
     this.randomMax = controls.randomMax || 172; // Default maximum random page
 
-    // Touch gesture tracking
-    this.touchStartX = 0; // Starting X position of the touch
-    this.touchEndX = 0; // Ending X position of the touch
+    // Variables for touch gesture tracking
+    this.touchStartX = 0;
+    this.touchEndX = 0;
   }
 
   async renderPage(num) {
@@ -71,44 +71,44 @@ class PDFViewer {
       .getElementById(this.controls.downloadPDF)
       .addEventListener("click", () => this.downloadPDF());
 
-    // Add event listener for the canvas click/tap
-    this.canvas.addEventListener("click", () => this.onNextPage());
-
-    // Add touch gesture listeners for swiping
+    // Add new event listeners
+    this.canvas.addEventListener("click", () => this.onNextPage()); // Click to go to the next page
     this.canvas.addEventListener("touchstart", (event) =>
       this.onTouchStart(event)
-    );
+    ); // Start of touch
     this.canvas.addEventListener("touchmove", (event) =>
       this.onTouchMove(event)
-    );
-    this.canvas.addEventListener("touchend", () => this.onTouchEnd());
+    ); // During touch
+    this.canvas.addEventListener("touchend", () => this.onTouchEnd()); // End of touch
+    document.addEventListener("keydown", (event) => this.onKeyPress(event)); // Key press
   }
 
   onTouchStart(event) {
-    // Capture the starting X position of the touch
-    this.touchStartX = event.touches[0].clientX;
+    this.touchStartX = event.touches[0].clientX; // Capture the X position where touch started
   }
 
   onTouchMove(event) {
-    // Optionally, track the current position
-    this.touchEndX = event.touches[0].clientX;
+    this.touchEndX = event.touches[0].clientX; // Update the X position as the touch moves
   }
 
   onTouchEnd() {
-    // Calculate the difference between the start and end positions
-    const deltaX = this.touchEndX - this.touchStartX;
-
-    // Define a threshold for swipe detection (e.g., 50px)
-    const swipeThreshold = 50;
+    const deltaX = this.touchEndX - this.touchStartX; // Calculate the horizontal movement
+    const swipeThreshold = 50; // Minimum distance for swipe to be considered valid
 
     if (Math.abs(deltaX) > swipeThreshold) {
       if (deltaX > 0) {
-        // Swiped to the right (next page)
-        this.onNextPage();
+        this.onNextPage(); // Swipe right (next page)
       } else {
-        // Swiped to the left (previous page)
-        this.onPrevPage();
+        this.onPrevPage(); // Swipe left (previous page)
       }
+    }
+  }
+
+  onKeyPress(event) {
+    if (event.key === "ArrowRight") {
+      this.onNextPage(); // Right arrow key for next page
+    } else if (event.key === "ArrowLeft") {
+      this.onPrevPage(); // Left arrow key for previous page
     }
   }
 
