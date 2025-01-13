@@ -4230,8 +4230,12 @@
         "context": [
             "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=292"
         ],
-        "refs": [],
-        "urls": [],
+        "refs": [
+            "He right sort of healing - at ratanagiri.org.uk"
+        ],
+        "urls": [
+            "https://www.ratanagiri.org.uk/monthly-dhammapada/the-right-sort-of-healing"
+        ],
         "utter": "Verses [292, 293] were uttered together."
     },
     {
