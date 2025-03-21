@@ -1197,8 +1197,12 @@
         "context": [
             "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=084"
         ],
-        "refs": [],
-        "urls": [],
+        "refs": [
+            "Aith in harmlessness - at ratanagiri.org.uk"
+        ],
+        "urls": [
+            "https://www.ratanagiri.org.uk/monthly-dhammapada/faith-in-harmlessness"
+        ],
         "utter": "Verse 84 was NOT uttered together with other verse(s)."
     },
     {
