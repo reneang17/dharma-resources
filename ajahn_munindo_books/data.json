@@ -740,11 +740,13 @@
         ],
         "refs": [
             "Clearer perspective - at ratanagiri.org.uk",
-            "Ight action - at ratanagiri.org.uk"
+            "Ight action - at ratanagiri.org.uk",
+            "Ise action - at ratanagiri.org.uk"
         ],
         "urls": [
             "https://www.ratanagiri.org.uk/monthly-dhammapada/full-moon-clearer-perspective",
-            "https://www.ratanagiri.org.uk/monthly-dhammapada/right-action"
+            "https://www.ratanagiri.org.uk/monthly-dhammapada/right-action",
+            "https://www.ratanagiri.org.uk/monthly-dhammapada/wise-action"
         ],
         "utter": "Verses [51, 52] were uttered together."
     },
