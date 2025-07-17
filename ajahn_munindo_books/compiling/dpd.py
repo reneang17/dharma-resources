@@ -157,7 +157,10 @@ def get_ref(verse):
                     
                 if file_lines == file_c4_lines:
                     url= file_lines[i+1][:-1] + "\n"
-                    url_=((file_lines[i+1][:-1]).split("/")[-1].split("moon")[-1]).replace("-"," ").capitalize()
+                    url_=((file_lines[i+1][:-1]).split("/")[-1].split("moon")[-1]).replace("-"," ")
+                    if url_[0] == ' ':
+                        url_ = url_[1:]
+                    url_ = url.capitalize()
                     ref=url_ + " - at ratanagiri.org.uk\n"
                 refs+=ref
                 urls+= url
