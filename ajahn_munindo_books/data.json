@@ -5079,8 +5079,12 @@
         "context": [
             "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=360"
         ],
-        "refs": [],
-        "urls": [],
+        "refs": [
+            "Effects of right restraint - at ratanagiri.org.uk"
+        ],
+        "urls": [
+            "https://www.ratanagiri.org.uk/monthly-dhammapada/effects-of-right-restraint"
+        ],
         "utter": "Verses [360, 361] were uttered together."
     },
     {
